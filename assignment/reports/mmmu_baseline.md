@@ -1,6 +1,6 @@
 # MMMU-val Baseline Evaluation Report — Qwen3-VL-4B-Instruct
 
-- **팀명**: 섹테고
+- **팀명**: 최테고
 - **팀원**: 고은성 김석민 김현진
 - **작성일**: 2026.09.28
 - **재현 커맨드**: 아래 명령을 저장소 루트에서 실행한다. `DATA_ROOT`는 준비된 MMMU validation DatasetDict 경로로 지정한다.
