@@ -64,7 +64,7 @@ Select the single best choice. Respond with exactly one line in the format 'Answ
 Solve the problem. End your response with a separate line 'Answer: X', where X is your concise final answer.
 ```
 
-- **출처**: 직접 설계.
+- **출처**: Qwen 팀의 공식 GitHub 저장소에 있는 MMMU 평가 코드.
 - **선택 이유**: 객관식은 최종 선택지 추출과 짧은 출력을 위해 한 줄 답변을 요청했다.
   주관식은 한 줄 답변 실험에서 9/53, 기존 풀이 응답을 동일한 개선 파서로 채점했을 때 21/53이어서 풀이를 허용하는 형식으로 복원했다.
 - 질문·선택지의 `<image n>` 위치에 해당 이미지를 삽입하고 순서·반복 참조를 유지했다.
