@@ -1,0 +1,15 @@
+{
+  "completed": 900,
+  "expected": 900,
+  "complete": true,
+  "length_limited": 60,
+  "repetition_aborted": 53,
+  "policy_wrong": 53,
+  "context_budget_limited": 0,
+  "generated_tokens": 1593588,
+  "mean_generated_tokens": 1770.6533333333334,
+  "max_generated_tokens": 8192,
+  "mean_seconds_per_question": 21.21991994198373,
+  "elapsed_question_seconds": 19097.927947785356,
+  "scoring": "pending"
+}

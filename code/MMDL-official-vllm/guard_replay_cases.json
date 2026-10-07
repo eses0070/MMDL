@@ -1,0 +1,64 @@
+{
+  "policy": {
+    "version": 1,
+    "min_tokens": 1024,
+    "check_every_tokens": 128,
+    "window_words": 600,
+    "phrase_words": 32,
+    "min_occurrences": 4,
+    "min_coverage": 0.2,
+    "tail_words": 80,
+    "confirmations": 2
+  },
+  "replay_mode": "approximate word-prefix replay; NOT exact token/time savings",
+  "samples": 2,
+  "detected": 2,
+  "results": [
+    {
+      "source": "C:\\Users\\rouistooni\\.codex\\attachments\\7758d253-71c1-4d7f-b58d-42091a4a2407\\붙여넣은 텍스트.txt",
+      "question_id": "validation_Accounting_5",
+      "finish_reason": "length",
+      "detected": true,
+      "prefix_words": 3712,
+      "total_words": 5157,
+      "evidence": {
+        "policy_version": 1,
+        "normalized_phrase": "perhaps the question is asking for equivalent units for conversion costs for each quarter but they want the total for all quarters and the options are for a different calculation i think",
+        "occurrences": 4,
+        "coverage": 0.21333333333333335,
+        "word_offsets": [
+          3220,
+          3300,
+          3579,
+          3630
+        ],
+        "confirmations": 2,
+        "observed_tokens": 3712,
+        "reason": "long repeated surface phrase persists near output tail"
+      }
+    },
+    {
+      "source": "C:\\Users\\rouistooni\\Desktop\\4-2\\멀티모달딥러닝\\과제1 result\\accounting5 transformer test\\prediction.json",
+      "question_id": "validation_Accounting_5",
+      "finish_reason": "stop",
+      "detected": true,
+      "prefix_words": 3328,
+      "total_words": 4485,
+      "evidence": {
+        "policy_version": 1,
+        "normalized_phrase": "conversion and the question is asking for the equivalent units for conversion for the quarter and we need to find which quarter s value matches one of the options but none do",
+        "occurrences": 4,
+        "coverage": 0.21333333333333335,
+        "word_offsets": [
+          2840,
+          3006,
+          3167,
+          3247
+        ],
+        "confirmations": 2,
+        "observed_tokens": 3328,
+        "reason": "long repeated surface phrase persists near output tail"
+      }
+    }
+  ]
+}

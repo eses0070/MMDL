@@ -1,0 +1,15 @@
+{
+  "policy": "terminal_rules_v1_abstention_counts_wrong",
+  "sources": {
+    "C:\\Users\\rouistooni\\Desktop\\4-2\\멀티모달딥러닝\\과제1 result\\accounting5 transformer test\\judgments.jsonl": "1469044f6f41cd355b1875e591e11201574bc4bface3489838098338ba471a4b",
+    "C:\\Users\\rouistooni\\Desktop\\4-2\\멀티모달딥러닝\\과제1 result\\validation900_mc_rejudge_v1\\retries.jsonl": "0de97be88baaf3fcbfc901b6d4449cb0caa5b8699fae7d6a0eab28c97fcf35af"
+  },
+  "script_sha256": "74f0c7f5a9b43fa74341cbdfcf3b83d916cc6c156e786212feaffbe8e64428da",
+  "limitations": [
+    "Not the old parser or official MMMU parser",
+    "No reasoning verification: reasoning_correct=null",
+    "Terminal syntax is conservative and can miss valid answers",
+    "Only originally unresolved MC rows changed; other local judge errors may remain",
+    "Unextractable is a scoring policy, not proof of a wrong answer or reasoning"
+  ]
+}

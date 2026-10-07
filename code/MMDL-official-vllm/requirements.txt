@@ -1,0 +1,12 @@
+# Local starting environment, NOT the unpublished historical official lockfile.
+# Use a new Linux venv. Let vLLM resolve its matching torch/CUDA packages.
+vllm==0.11.2
+transformers==4.57.1
+qwen-vl-utils==0.0.14
+pandas
+numpy
+Pillow
+tqdm
+requests
+validators
+accelerate

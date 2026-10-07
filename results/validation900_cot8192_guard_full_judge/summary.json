@@ -1,0 +1,11 @@
+{
+  "completed": 900,
+  "correct": 537,
+  "unresolved": 81,
+  "repetition_aborted": 53,
+  "judged_incorrect": 229,
+  "accuracy_pct": null,
+  "lower_bound_pct": 59.666666666666664,
+  "upper_bound_pct": 68.66666666666667,
+  "protocol": "Local Qwen3-8B judge; NOT official MMMU scoring"
+}

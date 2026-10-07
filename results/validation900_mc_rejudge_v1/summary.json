@@ -1,0 +1,15 @@
+{
+  "completed": 900,
+  "correct": 566,
+  "unresolved": 30,
+  "repetition_aborted": 53,
+  "judged_incorrect": 251,
+  "accuracy_pct": null,
+  "lower_bound_pct": 62.888888888888886,
+  "upper_bound_pct": 66.22222222222223,
+  "eligible_unresolved_mc": 81,
+  "retried": 81,
+  "retry_resolved": 51,
+  "remaining_unretried": 0,
+  "protocol": "Mixed original local Qwen3-8B judgments + MC extraction repair; NOT official MMMU scoring"
+}

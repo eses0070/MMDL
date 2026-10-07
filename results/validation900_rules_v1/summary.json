@@ -1,0 +1,12 @@
+{
+  "completed": 900,
+  "correct": 563,
+  "unresolved": 0,
+  "accuracy_pct": 62.55555555555556,
+  "rolled_back_retry_count": 81,
+  "unchanged_original_count": 819,
+  "rules_extracted": 35,
+  "unextractable_counted_wrong": 46,
+  "reasoning_evaluated": false,
+  "protocol": "Original local judgments + rules for all originally unresolved MC; unextractable=wrong; NOT official MMMU scoring"
+}

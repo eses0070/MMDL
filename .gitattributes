@@ -1,0 +1,4 @@
+# Preserve original artifact bytes and recorded hashes across platforms.
+code/MMDL-official-vllm/** -text
+results/validation900*/** -text
+results/accounting5_transformers_cot8192/** -text

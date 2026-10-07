@@ -1,0 +1,12 @@
+{
+  "common_utils.py": "8674aa035e8440d58fd4deec37fc7d8c441dbf2b4453aa24b2cf6f6a849c1cb5",
+  "dataset_utils.py": "5c766669b71e443c3d7b8aae229d8dae11098034f30b63f07ee5cc7c4dca6413",
+  "eval_instruct.sh": "6dfbbaa3706831071459d4e82fbe74d4cf31307e4120e32231205bb02294b86d",
+  "eval_think.sh": "3976fddf117f77f225d3e31eca8e2924c44e3840b1b611ce25f3b5717feb2222",
+  "eval_utils.py": "72a1773c3d22fe589299670cdcd523da9e4cb95f129880c5c3a3414597a075bf",
+  "infer_instruct.sh": "deb03338d6cf3e9ec4165cbe14d30030fa86d8ce137b0d0fa3a4cb4fa5d3d143",
+  "infer_think.sh": "c5cb1726ca3d844389a60313eafc53b1ef718e6de76b438b8fac5cfec846899d",
+  "README.md": "20e4dec60c5e02815da955b4ace861b87f5980484cc146e292a72550200423d0",
+  "requirements.txt": "ea4fdb7c10df5720bc1b0244faa21e06a7d08abb8361921a373096674b9528ea",
+  "run_mmmu.py": "f9e4a6c1b8d2ad1709fb08dd46102e5f6e3423ada14df8df987743cf71b8eba0"
+}
