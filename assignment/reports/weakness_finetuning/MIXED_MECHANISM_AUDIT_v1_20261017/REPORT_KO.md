@@ -1,3 +1,5 @@
+> **공유본 안내 (2026-10-17):** 이 문서는 원본 실험 당시 기록이다. 현재 종합 결과는 [전체 개요](../README.md), 파일 역할은 [파일 안내](../FILE_GUIDE.md)를 참조한다.
+
 # 혼합 채점의 점수 변화 원인 감사
 
 기존 점수·응답·Judge 원문·checkpoint는 보존했다. **재학습·Student 답변 재생성·신규 Judge 추론0회**이며 CPU에서 저장 로그와 당시 코드를 재생·감사했다. 시작 시 RTX4090은 display18MiB 외 compute 작업0개, 기존 mixed controller는 completed, tmux 실행 없음이었다. 원격 main과 로컬 시작 commit은 `b65417e662b7af92dcd879a15e893c974c985630`로 일치했다.

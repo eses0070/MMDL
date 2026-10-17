@@ -5,7 +5,7 @@
   "target_directory": "assignment/reports/weakness_finetuning",
   "scope": "Published experiment reports/settings/metrics/decision tables only",
   "overview": "README.md is a new Korean synthesis; archived reports retain historical conclusions.",
-  "changes": "Source bytes preserved except Markdown links to files outside this bundle are pinned to source commit.",
+  "changes": "Original report bodies and all data files preserved. Korean publication-context notices prepended to archived Markdown; source_sha256 refers to original, published_sha256 refers to current shared file.",
   "files": [
     {
       "file": "MIXED_MECHANISM_AUDIT_v1_20261017/B0_L1_pairs.csv",
@@ -30,27 +30,48 @@
       "source_path": "docs/experiments/MIXED_MECHANISM_AUDIT_v1_20261017/PROPOSED_POLICY.md",
       "source_git_blob_sha1": "4dc4da616fe73d8858a6ddc48304d2f1d5d933f0",
       "source_sha256": "b940737ce6fee7eef14e7aec33ddfe8609c619215d42f4b4274e318e5ed53de2",
-      "published_sha256": "b940737ce6fee7eef14e7aec33ddfe8609c619215d42f4b4274e318e5ed53de2",
-      "size_bytes": 2004,
-      "relative_links_rewritten": []
+      "published_sha256": "61e1fdf569be71c1851554795ee56e89a24f5e44e394b569d1a215cdd0ce77bf",
+      "size_bytes": 2214,
+      "relative_links_rewritten": [],
+      "editorial_changes": [
+        {
+          "date": "2026-10-17",
+          "action": "prepend_share_context_notice",
+          "original_body_unchanged": true
+        }
+      ]
     },
     {
       "file": "MIXED_MECHANISM_AUDIT_v1_20261017/REPORT_KO.md",
       "source_path": "docs/experiments/MIXED_MECHANISM_AUDIT_v1_20261017/REPORT_KO.md",
       "source_git_blob_sha1": "fa6ab7b4a59344187ca7051ce7225c14cde0e931",
       "source_sha256": "19d2a8382b333db93c3d63fef931e28e406c620ead6a834abae017f0ddfd9668",
-      "published_sha256": "19d2a8382b333db93c3d63fef931e28e406c620ead6a834abae017f0ddfd9668",
-      "size_bytes": 21966,
-      "relative_links_rewritten": []
+      "published_sha256": "f2616597ca78c91484a56faceebbfbf8fcd59e18fafbcda3963882597e532fe4",
+      "size_bytes": 22176,
+      "relative_links_rewritten": [],
+      "editorial_changes": [
+        {
+          "date": "2026-10-17",
+          "action": "prepend_share_context_notice",
+          "original_body_unchanged": true
+        }
+      ]
     },
     {
       "file": "MIXED_MECHANISM_AUDIT_v1_20261017/REVIEW_STATUS.md",
       "source_path": "docs/experiments/MIXED_MECHANISM_AUDIT_v1_20261017/REVIEW_STATUS.md",
       "source_git_blob_sha1": "29d465839990b9889cda326affdb6b796113466a",
       "source_sha256": "48ee8a7d21bcca216b9b748e51b150847ee93516e532e43ebefb7705d3f8fe96",
-      "published_sha256": "48ee8a7d21bcca216b9b748e51b150847ee93516e532e43ebefb7705d3f8fe96",
-      "size_bytes": 836,
-      "relative_links_rewritten": []
+      "published_sha256": "e937bdeef77ee26bcf0c327a1dffd09adfa3e2eb3a55d1a7907e3fd081c9cecb",
+      "size_bytes": 1046,
+      "relative_links_rewritten": [],
+      "editorial_changes": [
+        {
+          "date": "2026-10-17",
+          "action": "prepend_share_context_notice",
+          "original_body_unchanged": true
+        }
+      ]
     },
     {
       "file": "MIXED_MECHANISM_AUDIT_v1_20261017/diagnostic_summary.json",
@@ -111,9 +132,16 @@
       "source_path": "docs/experiments/MIXED_SCORING_AUDIT_20261011/REPORT_KO.md",
       "source_git_blob_sha1": "4332bd190e827cb64886ce444ef71e2d728a5a27",
       "source_sha256": "1e69b7bcf4eba8a131fa858ba26fca84913e1eac2d6be5a5310ebde50695962d",
-      "published_sha256": "1e69b7bcf4eba8a131fa858ba26fca84913e1eac2d6be5a5310ebde50695962d",
-      "size_bytes": 8539,
-      "relative_links_rewritten": []
+      "published_sha256": "ff08d10d2d280658b27d9ebc70487f1ef92be44a9d020ec69461086197f56dcf",
+      "size_bytes": 8980,
+      "relative_links_rewritten": [],
+      "editorial_changes": [
+        {
+          "date": "2026-10-17",
+          "action": "prepend_share_context_notice",
+          "original_body_unchanged": true
+        }
+      ]
     },
     {
       "file": "MIXED_SCORING_AUDIT_20261011/metrics.json",
@@ -147,9 +175,16 @@
       "source_path": "docs/experiments/RESTORE_DIAGNOSIS_v1/REPORT_KO.md",
       "source_git_blob_sha1": "ea6b937640962d5f2934d1df284f51dc2062191e",
       "source_sha256": "c4e4daadf08859d87a2b19e2fe181d7c6a2122cb1a0a35eb52b7eae2805a9fc8",
-      "published_sha256": "c4e4daadf08859d87a2b19e2fe181d7c6a2122cb1a0a35eb52b7eae2805a9fc8",
-      "size_bytes": 14450,
-      "relative_links_rewritten": []
+      "published_sha256": "4329c2b0c32529d00046ef5fa120279a4c7f238ac06b6b1f5025f35bb4436432",
+      "size_bytes": 14891,
+      "relative_links_rewritten": [],
+      "editorial_changes": [
+        {
+          "date": "2026-10-17",
+          "action": "prepend_share_context_notice",
+          "original_body_unchanged": true
+        }
+      ]
     },
     {
       "file": "RESTORE_DIAGNOSIS_v1/metrics.json",
@@ -183,36 +218,64 @@
       "source_path": "docs/experiments/RESTORE_E123/E1_TRAINING_BRIEF.md",
       "source_git_blob_sha1": "ea027816d1004c0df3555dd2c97e9c586dc3e3dd",
       "source_sha256": "75f3bb06de2ce84f5d63118f217b3a50d82db85f3287652dd354542e08e9f665",
-      "published_sha256": "75f3bb06de2ce84f5d63118f217b3a50d82db85f3287652dd354542e08e9f665",
-      "size_bytes": 2615,
-      "relative_links_rewritten": []
+      "published_sha256": "04e4ceccf9bfcf10e9dd10d7c038cb388efeba4378df8bed8acff17d79cf65a8",
+      "size_bytes": 3056,
+      "relative_links_rewritten": [],
+      "editorial_changes": [
+        {
+          "date": "2026-10-17",
+          "action": "prepend_share_context_notice",
+          "original_body_unchanged": true
+        }
+      ]
     },
     {
       "file": "RESTORE_E123/FINAL_BRIEF_KO.md",
       "source_path": "docs/experiments/RESTORE_E123/FINAL_BRIEF_KO.md",
       "source_git_blob_sha1": "b56f09028c950fec86caccef6d07fe3b08d9fede",
       "source_sha256": "3d9c435a401e683ae8908b4f20ada12029dac1296f5c742b1bc2c516894813a9",
-      "published_sha256": "3d9c435a401e683ae8908b4f20ada12029dac1296f5c742b1bc2c516894813a9",
-      "size_bytes": 2785,
-      "relative_links_rewritten": []
+      "published_sha256": "c50d7ad6e82393a3b8f16c8f7e026b09b1dbe2a042d69435c7475e44e8abfe18",
+      "size_bytes": 3226,
+      "relative_links_rewritten": [],
+      "editorial_changes": [
+        {
+          "date": "2026-10-17",
+          "action": "prepend_share_context_notice",
+          "original_body_unchanged": true
+        }
+      ]
     },
     {
       "file": "RESTORE_E123/HOST_RUN.md",
       "source_path": "docs/experiments/RESTORE_E123/HOST_RUN.md",
       "source_git_blob_sha1": "14369b515dc6fa9825e4e3b9d74cc519a4d750b4",
       "source_sha256": "af3cd35aeb1f639d2e9377361a5d94b9dff2d2c0ad1e7fc8904c05e4b84b78ff",
-      "published_sha256": "af3cd35aeb1f639d2e9377361a5d94b9dff2d2c0ad1e7fc8904c05e4b84b78ff",
-      "size_bytes": 3150,
-      "relative_links_rewritten": []
+      "published_sha256": "30ac220985a4bad9fb71a00dec2339f4c14154fbe1dfa8ee4e754ad8f867b045",
+      "size_bytes": 3757,
+      "relative_links_rewritten": [],
+      "editorial_changes": [
+        {
+          "date": "2026-10-17",
+          "action": "prepend_share_context_notice",
+          "original_body_unchanged": true
+        }
+      ]
     },
     {
       "file": "RESTORE_E123/REPORT.md",
       "source_path": "docs/experiments/RESTORE_E123/REPORT.md",
       "source_git_blob_sha1": "29f4d79fbae3ba39061fb9d6d651726933ad9421",
       "source_sha256": "dbfc5e2fedaf1025432555422a1b58097c172591720181d5a796d9130dca0a65",
-      "published_sha256": "dbfc5e2fedaf1025432555422a1b58097c172591720181d5a796d9130dca0a65",
-      "size_bytes": 4416,
-      "relative_links_rewritten": []
+      "published_sha256": "a2930c41c0fe0cc1dfc90abf17a9bd210509de185a63ce8461463591dee0494c",
+      "size_bytes": 4857,
+      "relative_links_rewritten": [],
+      "editorial_changes": [
+        {
+          "date": "2026-10-17",
+          "action": "prepend_share_context_notice",
+          "original_body_unchanged": true
+        }
+      ]
     },
     {
       "file": "RESTORE_E123/config.json",
@@ -273,9 +336,16 @@
       "source_path": "docs/experiments/RESTORE_E45/REPORT_KO.md",
       "source_git_blob_sha1": "8f0d5d9d90515b65cb1f59461d95cccc91934afd",
       "source_sha256": "f82fbd8677df06ff119c4edb2dbd881b5920d2c2d6cedfafac9eb4461c306546",
-      "published_sha256": "f82fbd8677df06ff119c4edb2dbd881b5920d2c2d6cedfafac9eb4461c306546",
-      "size_bytes": 13451,
-      "relative_links_rewritten": []
+      "published_sha256": "25e0e9833b71ba0d689a8b4458630bf03e4716ae568c6de50cedfa81eec061a5",
+      "size_bytes": 13892,
+      "relative_links_rewritten": [],
+      "editorial_changes": [
+        {
+          "date": "2026-10-17",
+          "action": "prepend_share_context_notice",
+          "original_body_unchanged": true
+        }
+      ]
     },
     {
       "file": "RESTORE_E45/metrics.json",
@@ -309,9 +379,16 @@
       "source_path": "docs/experiments/RESTORE_E67/REPORT_KO.md",
       "source_git_blob_sha1": "58767ade2ee2975b89c58bdcc4207673a34c22b7",
       "source_sha256": "69b95b6a708018fce79b4be47a752924dfb626c85359e43735f7729f8c8e52b5",
-      "published_sha256": "69b95b6a708018fce79b4be47a752924dfb626c85359e43735f7729f8c8e52b5",
-      "size_bytes": 14498,
-      "relative_links_rewritten": []
+      "published_sha256": "356a07dc090bfb15c252455697c7f0f3ce4d26cd1aa02be90f7e8879df6ffe79",
+      "size_bytes": 14939,
+      "relative_links_rewritten": [],
+      "editorial_changes": [
+        {
+          "date": "2026-10-17",
+          "action": "prepend_share_context_notice",
+          "original_body_unchanged": true
+        }
+      ]
     },
     {
       "file": "RESTORE_E67/metrics.json",
@@ -354,9 +431,16 @@
       "source_path": "docs/experiments/RESTORE_L123_v1/REPORT_KO.md",
       "source_git_blob_sha1": "7772cad6dba458a41c82aed315dc093294277d19",
       "source_sha256": "8f3a99afa0a8c317d4331b7a3ef349a76d8aef0958738168c92fd973737ef61e",
-      "published_sha256": "8f3a99afa0a8c317d4331b7a3ef349a76d8aef0958738168c92fd973737ef61e",
-      "size_bytes": 27207,
-      "relative_links_rewritten": []
+      "published_sha256": "cc021e0c31e8f8099d8d7bc169715da409cd9ca09bbc64a60501ec73ba65791e",
+      "size_bytes": 27648,
+      "relative_links_rewritten": [],
+      "editorial_changes": [
+        {
+          "date": "2026-10-17",
+          "action": "prepend_share_context_notice",
+          "original_body_unchanged": true
+        }
+      ]
     },
     {
       "file": "RESTORE_L123_v1/metrics.json",
@@ -390,9 +474,16 @@
       "source_path": "docs/experiments/RESTORE_MIXED_ALL_v1/REPORT_KO.md",
       "source_git_blob_sha1": "febe184b913f47a58a03c3f1ca1282390a2ab57c",
       "source_sha256": "e2c12e17562dbdecb4f119667a8ced77c4cce94560f206d5463cddc6289a0ff4",
-      "published_sha256": "e2c12e17562dbdecb4f119667a8ced77c4cce94560f206d5463cddc6289a0ff4",
-      "size_bytes": 12337,
-      "relative_links_rewritten": []
+      "published_sha256": "db9ef2798b6fcae42e4b2423992e297ed205e1491eea890c1a60ee378e8ab2ac",
+      "size_bytes": 12547,
+      "relative_links_rewritten": [],
+      "editorial_changes": [
+        {
+          "date": "2026-10-17",
+          "action": "prepend_share_context_notice",
+          "original_body_unchanged": true
+        }
+      ]
     },
     {
       "file": "RESTORE_MIXED_ALL_v1/discrepancy_samples.json",
@@ -453,9 +544,16 @@
       "source_path": "docs/experiments/RESTORE_RETENTION_v1/REPORT_KO.md",
       "source_git_blob_sha1": "3d264d0ba4573e83b020576054fbb5325d6ee61f",
       "source_sha256": "28dc98d6397375e83e3689b246110be98714d5a63a4ced768fd87f970ecf125d",
-      "published_sha256": "28dc98d6397375e83e3689b246110be98714d5a63a4ced768fd87f970ecf125d",
-      "size_bytes": 18221,
-      "relative_links_rewritten": []
+      "published_sha256": "b077238162ab96943ec74e66f7c85d39b81330ca9e3ce3da740904a35de02e24",
+      "size_bytes": 18662,
+      "relative_links_rewritten": [],
+      "editorial_changes": [
+        {
+          "date": "2026-10-17",
+          "action": "prepend_share_context_notice",
+          "original_body_unchanged": true
+        }
+      ]
     },
     {
       "file": "RESTORE_RETENTION_v1/metrics.json",
@@ -484,5 +582,34 @@
       "size_bytes": 60156,
       "relative_links_rewritten": []
     }
-  ]
+  ],
+  "local_supplements": [
+    {
+      "file": "README.md",
+      "purpose": "Korean experiment overview",
+      "sha256": "e919466708f2e7396d9062a2bdc0251436ce8a609658ffdf801db965617d8b49"
+    },
+    {
+      "file": "FILE_GUIDE.md",
+      "purpose": "Complete file catalog and CSV aggregation guide",
+      "sha256": "d9a9397fde3a669b591dc41ac27426f5ac57223e414fae424f729f38fc46e4ca"
+    },
+    {
+      "file": "REVIEW_NOTES.md",
+      "purpose": "Scope, checks, editorial corrections and remaining evidence gaps",
+      "sha256": "8c5a4da88e05306cf02040f9e8e78af7ae15f14889d1a8831970e946d7e0dac6"
+    },
+    {
+      "file": ".gitattributes",
+      "purpose": "Preserve file bytes across Git checkout",
+      "sha256": "8b9c3028d6467ff3be7c793141927841d70f47f52d0590677438f488ca154992"
+    }
+  ],
+  "editorial_review": {
+    "date_kst": "2026-10-17",
+    "scope": "Only assignment/reports/weakness_finetuning",
+    "review_base_commit": "f7fe19f3cf6c140fb77ef6bf9bed79e038c4de4c",
+    "results_or_settings_modified": false,
+    "manifest_self_hash": "Not embedded; tracked by Git commit"
+  }
 }

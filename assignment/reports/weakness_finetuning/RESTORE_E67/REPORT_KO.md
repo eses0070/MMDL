@@ -1,3 +1,5 @@
+> **공유본 안내 (2026-10-17):** 이 문서는 원본 실험 당시 기록이다. 현재 종합 결과는 [전체 개요](../README.md), 파일 역할은 [파일 안내](../FILE_GUIDE.md)를 참조한다. 본문의 혼합 채점 미완료·미산출 표현은 당시 상태이며, 후속 [전체 혼합 채점](../RESTORE_MIXED_ALL_v1/REPORT_KO.md)과 [원인 감사](../MIXED_MECHANISM_AUDIT_v1_20261017/REPORT_KO.md)가 추가됐다.
+
 # RESTORE_E67 과학 도식·공간 대응 실험
 
 실제 실행 상태: `completed`. 가공·학습·재로드·평가 완료 여부는 아래와 metrics.json의 실제 영수증을 따른다. 모든 adapter는 원본 Qwen3-VL-4B-Instruct에서 독립 시작하며 선생 모델·KD·모델 생성 풀이를 사용하지 않았다. PrIMuS 및 E8은 제외했다.

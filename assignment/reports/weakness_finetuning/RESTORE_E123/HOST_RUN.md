@@ -1,3 +1,5 @@
+> **공유본 안내 (2026-10-17):** 이 문서는 원본 실험 당시 기록이다. 현재 종합 결과는 [전체 개요](../README.md), 파일 역할은 [파일 안내](../FILE_GUIDE.md)를 참조한다. 본문의 혼합 채점 미완료·미산출 표현은 당시 상태이며, 후속 [전체 혼합 채점](../RESTORE_MIXED_ALL_v1/REPORT_KO.md)과 [원인 감사](../MIXED_MECHANISM_AUDIT_v1_20261017/REPORT_KO.md)가 추가됐다. 여기서 말하는 실행 코드와 호스트 경로는 원본 실습컴 환경 기준이며, 현재 보고서 폴더에는 실행 코드가 포함되지 않는다.
+
 # Current-host runtime and commands
 
 This publication includes the code executed for this restoration, exact resolved configuration and aggregate/lightweight decision records. Private raw assets, processed QA, runtime pointers under `.restore`, local run receipts, weights and adapters are excluded. Cloning Git alone does not reconstruct those private assets or bootstrap state. The preparation scripts require the locally restored source snapshot, pinned model metadata and recorded B0/runtime pointers; missing these prerequisites must be restored explicitly, not treated as already available.

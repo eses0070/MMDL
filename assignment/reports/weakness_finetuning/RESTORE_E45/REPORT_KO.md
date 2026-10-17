@@ -1,3 +1,5 @@
+> **공유본 안내 (2026-10-17):** 이 문서는 원본 실험 당시 기록이다. 현재 종합 결과는 [전체 개요](../README.md), 파일 역할은 [파일 안내](../FILE_GUIDE.md)를 참조한다. 본문의 혼합 채점 미완료·미산출 표현은 당시 상태이며, 후속 [전체 혼합 채점](../RESTORE_MIXED_ALL_v1/REPORT_KO.md)과 [원인 감사](../MIXED_MECHANISM_AUDIT_v1_20261017/REPORT_KO.md)가 추가됐다.
+
 # RESTORE_E45 대응 실험 결과
 
 E4·E5를 RTX 4090에서 순차 완료했다. 각 모델은 같은 원본에서 독립 초기화했다. teacher/KD는 사용하지 않았고 기존 B0 MMMU 응답을 재사용했다. 일반 비교는 latest_vllm_final_v2이며 과거 혼합 점수는 별도 기록한다.
