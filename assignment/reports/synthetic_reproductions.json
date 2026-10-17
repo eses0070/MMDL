@@ -1,0 +1,201 @@
+{
+  "cases": [
+    {
+      "name": "standalone_key",
+      "synthetic_input": "B",
+      "common_extracted": "B",
+      "common_failure": null,
+      "terminal_extracted": "B",
+      "terminal_reason": "terminal_explicit_letter",
+      "actual_corpus_case": false
+    },
+    {
+      "name": "bare_key_plus_content",
+      "synthetic_input": "B. blue",
+      "common_extracted": "B",
+      "common_failure": null,
+      "terminal_extracted": null,
+      "terminal_reason": "no_unambiguous_terminal_answer",
+      "actual_corpus_case": false
+    },
+    {
+      "name": "content_only",
+      "synthetic_input": "blue",
+      "common_extracted": "B",
+      "common_failure": null,
+      "terminal_extracted": null,
+      "terminal_reason": "no_unambiguous_terminal_answer",
+      "actual_corpus_case": false
+    },
+    {
+      "name": "prefixed_key_plus_content",
+      "synthetic_input": "Final Answer: B. blue",
+      "common_extracted": "B",
+      "common_failure": null,
+      "terminal_extracted": "B",
+      "terminal_reason": "terminal_letter_and_option_text",
+      "actual_corpus_case": false
+    },
+    {
+      "name": "boxed_key",
+      "synthetic_input": "\\boxed{B}",
+      "common_extracted": "B",
+      "common_failure": null,
+      "terminal_extracted": null,
+      "terminal_reason": "no_unambiguous_terminal_answer",
+      "actual_corpus_case": false
+    },
+    {
+      "name": "trailing_comment",
+      "synthetic_input": "Final Answer: B\nA separate explanatory note.",
+      "common_extracted": "B",
+      "common_failure": null,
+      "terminal_extracted": null,
+      "terminal_reason": "no_unambiguous_terminal_answer",
+      "actual_corpus_case": false
+    },
+    {
+      "name": "prior_answer_then_reconsideration",
+      "synthetic_input": "Final Answer: B\nActually I reconsider. No settled answer.",
+      "common_extracted": "B",
+      "common_failure": null,
+      "terminal_extracted": null,
+      "terminal_reason": "no_unambiguous_terminal_answer",
+      "actual_corpus_case": false
+    },
+    {
+      "name": "legitimate_article_misread_as_option",
+      "synthetic_input": "Final Answer: B. red and a ribbon",
+      "common_extracted": null,
+      "common_failure": "ambiguous_candidates",
+      "terminal_extracted": "B",
+      "terminal_reason": "terminal_letter_and_option_text",
+      "actual_corpus_case": false
+    },
+    {
+      "name": "whitespace_difference",
+      "synthetic_input": "Final Answer: B. two  words",
+      "common_extracted": null,
+      "common_failure": "option_text_mismatch",
+      "terminal_extracted": "B",
+      "terminal_reason": "terminal_letter_and_option_text",
+      "actual_corpus_case": false
+    },
+    {
+      "name": "multiline_math_delimiter_taken_as_answer",
+      "synthetic_input": "Final Answer:\n\\[\n\\boxed{3}\n\\]",
+      "common_extracted": "\\[",
+      "actual_corpus_case": false
+    },
+    {
+      "name": "valid_MC",
+      "synthetic_Judge_JSON": {
+        "status": "matched",
+        "answer": "B",
+        "reason": "Explicit option."
+      },
+      "historical_score_outcome": true,
+      "actual_corpus_case": false
+    },
+    {
+      "name": "MC_open_status",
+      "synthetic_Judge_JSON": {
+        "status": "correct",
+        "answer": "B",
+        "reason": "Explicit option."
+      },
+      "historical_score_outcome": "rejected",
+      "actual_corpus_case": false
+    },
+    {
+      "name": "MC_content_instead_of_key",
+      "synthetic_Judge_JSON": {
+        "status": "matched",
+        "answer": "B. blue",
+        "reason": "Explicit option."
+      },
+      "historical_score_outcome": "rejected",
+      "actual_corpus_case": false
+    },
+    {
+      "name": "MC_content_only",
+      "synthetic_Judge_JSON": {
+        "status": "matched",
+        "answer": "blue",
+        "reason": "Explicit option."
+      },
+      "historical_score_outcome": "rejected",
+      "actual_corpus_case": false
+    },
+    {
+      "name": "MC_key_out_of_range",
+      "synthetic_Judge_JSON": {
+        "status": "matched",
+        "answer": "C",
+        "reason": "Explicit option."
+      },
+      "historical_score_outcome": "rejected",
+      "actual_corpus_case": false
+    },
+    {
+      "name": "additional_key",
+      "synthetic_Judge_JSON": {
+        "status": "matched",
+        "answer": "B",
+        "reason": "Explicit option.",
+        "confidence": 1
+      },
+      "historical_score_outcome": "rejected",
+      "actual_corpus_case": false
+    },
+    {
+      "name": "wrong_reason_type",
+      "synthetic_Judge_JSON": {
+        "status": "matched",
+        "answer": "B",
+        "reason": 1
+      },
+      "historical_score_outcome": "rejected",
+      "actual_corpus_case": false
+    },
+    {
+      "name": "uncertain_with_nonnull_answer",
+      "synthetic_Judge_JSON": {
+        "status": "uncertain",
+        "answer": "B",
+        "reason": "Explicit option."
+      },
+      "historical_score_outcome": null,
+      "actual_corpus_case": false
+    },
+    {
+      "name": "json_fence",
+      "synthetic_input": "```json\n{\"status\": \"matched\", \"answer\": \"B\", \"reason\": \"Explicit option.\"}\n```",
+      "historical_json_loads": "JSONDecodeError",
+      "actual_corpus_case": false
+    },
+    {
+      "name": "json_bad_latex_escape",
+      "synthetic_input": "{\"status\":\"matched\",\"answer\":\"B\",\"reason\":\"value \\sqrt{2}\"}",
+      "historical_json_loads": "JSONDecodeError",
+      "actual_corpus_case": false
+    },
+    {
+      "name": "truncated_JSON",
+      "synthetic_input": "{\"status\":\"matched\",",
+      "historical_json_loads": "JSONDecodeError",
+      "actual_corpus_case": false
+    },
+    {
+      "name": "nonstop_valid_json_rejected_by_runner",
+      "synthetic_finish_reason": "length",
+      "score_function_alone": true,
+      "runner_precondition": "finish_reason != stop raises before JSON/score; historical outcome unresolved",
+      "actual_corpus_case": false
+    }
+  ],
+  "count": 22,
+  "all_checks_passed": true,
+  "no_real_question_GT_or_Student_Judge_text_used": true,
+  "no_score_updates": true
+}

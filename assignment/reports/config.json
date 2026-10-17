@@ -1,0 +1,81 @@
+{
+  "model_id": "Qwen/Qwen3-VL-4B-Instruct",
+  "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+  "seed": 3407,
+  "lora_rank": 16,
+  "lora_alpha": 32,
+  "lora_dropout": 0.05,
+  "micro_batch": 1,
+  "gradient_accumulation": 4,
+  "optimizer_steps": 250,
+  "warmup_steps": 13,
+  "learning_rate": 0.0001,
+  "weight_decay": 0.01,
+  "optimizer": "AdamW",
+  "scheduler": "linear warmup13 actual optimizer updates then constant",
+  "max_sequence_length": 4096,
+  "min_pixels": 200704,
+  "max_pixels": 1003520,
+  "generation_max_new_tokens": 8192,
+  "eval_max_input_tokens": 49152,
+  "backend": "vllm==0.11.2",
+  "purpose": "Restored E1/E2/E3 independent original-answer SFT; no teacher/KD",
+  "data": {
+    "version": "RESTORE_v1_new_selection_seed3407",
+    "sources": {
+      "ChartQA": "044eabfc306abfe9340c5741f0093aefc5973d06",
+      "TabMWP": "5a1a52214521590b075f545b76a4f5ce666345e3",
+      "PGPS9K": "7dfd9dad4e455344b751b87340cd0ecf8798f4db"
+    },
+    "files": {
+      "ChartQA_check": {
+        "sha256": "0f48c90f5fb7619d638495b947ae1781d4aa851ad0cb52529271271e8ca74337",
+        "count": 100
+      },
+      "TabMWP_check": {
+        "sha256": "8247e278eea932cdfd5aa79ac9cc7372173c40bf41cf848aa92bfdc5f99a1916",
+        "count": 100
+      },
+      "ChartQA_train": {
+        "sha256": "eb5d3e2c4c62cda9a6b6bf83413909d1a5658c4917ff415617bf3b7c43936f17",
+        "count": 1000
+      },
+      "TabMWP_train": {
+        "sha256": "c66a55191c5218debc9e960cbe1990d84964cb5857a2d16f11093efc7425652c",
+        "count": 500
+      },
+      "E1": {
+        "sha256": "eb5d3e2c4c62cda9a6b6bf83413909d1a5658c4917ff415617bf3b7c43936f17",
+        "count": 1000
+      },
+      "E2": {
+        "sha256": "df7a0d35e1ab0bbd3e88e90e57f58bd8bdd3c6e25c03a2f6d58574f82e712bf7",
+        "count": 1000
+      },
+      "PGPS9K_check": {
+        "sha256": "1ff46b7e6684ad27f39f40f17742feb104b5fd23db5c7ba6efb6d82efd2a44b4",
+        "count": 100
+      },
+      "PGPS9K_train": {
+        "sha256": "ff826da21f750845a427a9224e1312d66d805205bff934c01bb9d498c913f686",
+        "count": 1000
+      },
+      "E3": {
+        "sha256": "ff826da21f750845a427a9224e1312d66d805205bff934c01bb9d498c913f686",
+        "count": 1000
+      }
+    },
+    "previous_sample_identity_verified": false
+  },
+  "evaluation": {
+    "seed": 3407,
+    "min_pixels": 1003520,
+    "max_pixels": 4014080,
+    "temperature": 0.7,
+    "top_p": 0.8,
+    "top_k": 20,
+    "repetition_penalty": 1.0,
+    "presence_penalty": 1.5,
+    "max_tokens": 8192
+  }
+}
