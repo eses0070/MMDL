@@ -1,0 +1,142 @@
+{
+  "scope": "Aggregate audit of existing saved responses only; no new training/inference/scoring changes",
+  "generation_first_stage_audit": {
+    "B0_G1": {
+      "phase1_text_diff_count": 9,
+      "transitioned_vs_G0": {
+        "False": {
+          "count": 64,
+          "new_correct_vs_G0": 0,
+          "new_wrong_vs_G0": 0
+        },
+        "True": {
+          "count": 8,
+          "new_correct_vs_G0": 2,
+          "new_wrong_vs_G0": 0
+        }
+      },
+      "phase1_output_total": 206277,
+      "phase2_output_total": 62,
+      "phase1_input_total": 103362,
+      "phase2_input_total": 74619,
+      "phase1_generation_seconds": 2467.581210195087,
+      "phase2_generation_seconds": 1.589545028284192
+    },
+    "B0_G2": {
+      "phase1_text_diff_count": 0,
+      "transitioned_vs_G0": {
+        "False": {
+          "count": 60,
+          "new_correct_vs_G0": 0,
+          "new_wrong_vs_G0": 0
+        },
+        "True": {
+          "count": 12,
+          "new_correct_vs_G0": 6,
+          "new_wrong_vs_G0": 0
+        }
+      },
+      "phase1_output_total": 207429,
+      "phase2_output_total": 67,
+      "phase1_input_total": 103362,
+      "phase2_input_total": 72105,
+      "phase1_generation_seconds": 2454.306064223754,
+      "phase2_generation_seconds": 1.3833064867649227
+    },
+    "L1_G1": {
+      "phase1_text_diff_count": 57,
+      "transitioned_vs_G0": {
+        "False": {
+          "count": 70,
+          "new_correct_vs_G0": 11,
+          "new_wrong_vs_G0": 3
+        },
+        "True": {
+          "count": 2,
+          "new_correct_vs_G0": 1,
+          "new_wrong_vs_G0": 0
+        }
+      },
+      "phase1_output_total": 83456,
+      "phase2_output_total": 10,
+      "phase1_input_total": 103362,
+      "phase2_input_total": 18616,
+      "phase1_generation_seconds": 2386.2821961495792,
+      "phase2_generation_seconds": 0.3393268840154633
+    },
+    "L1_G2": {
+      "phase1_text_diff_count": 52,
+      "transitioned_vs_G0": {
+        "False": {
+          "count": 62,
+          "new_correct_vs_G0": 10,
+          "new_wrong_vs_G0": 5
+        },
+        "True": {
+          "count": 10,
+          "new_correct_vs_G0": 3,
+          "new_wrong_vs_G0": 1
+        }
+      },
+      "phase1_output_total": 86690,
+      "phase2_output_total": 41,
+      "phase1_input_total": 103362,
+      "phase2_input_total": 38388,
+      "phase1_generation_seconds": 2507.443323404412,
+      "phase2_generation_seconds": 1.354183804593049
+    }
+  },
+  "cause_of_L1_first_stage_differences_confirmed": false,
+  "interpretation": "Do not attribute L1 full net G1/G2 score differences solely to finalization. G2_B0 first-stage text is identical for all72 and six aborted cases recovered, six wrong answers finalized.",
+  "P2_task_relevant_reading": {
+    "first_note_pitch": {
+      "total": 25,
+      "final_correct": 19,
+      "all_task_relevant_readings_correct": 19,
+      "final_correct_with_incorrect_task_relevant_reading": 0,
+      "relevant_fields": [
+        "note1_pitch"
+      ]
+    },
+    "first_note_duration": {
+      "total": 25,
+      "final_correct": 24,
+      "all_task_relevant_readings_correct": 22,
+      "final_correct_with_incorrect_task_relevant_reading": 2,
+      "relevant_fields": [
+        "note1_duration"
+      ]
+    },
+    "initial_clef": {
+      "total": 25,
+      "final_correct": 23,
+      "all_task_relevant_readings_correct": 22,
+      "final_correct_with_incorrect_task_relevant_reading": 1,
+      "relevant_fields": [
+        "clef"
+      ]
+    },
+    "first_two_note_interval": {
+      "total": 25,
+      "final_correct": 12,
+      "all_task_relevant_readings_correct": 1,
+      "final_correct_with_incorrect_task_relevant_reading": 11,
+      "relevant_fields": [
+        "note1_pitch",
+        "note2_pitch"
+      ]
+    }
+  },
+  "P2_reading_evaluation": "Exact structured field matching fixed in original experiment, with task-relevant field mask applied for this aggregate. No final answer parser or normalization change. Absent fields in answer-only control do not measure hidden perception.",
+  "P1_input_token_ratio_to_G0": 1.6927884522358314,
+  "P1_visual_token_and_patch_pixel_ratio_to_G0": 1.7680342427217668,
+  "source_ceiling": {
+    "K1_B0_correct": 100,
+    "K1_total": 100,
+    "K1_B0_both_pairs_correct": 50,
+    "K1_pairs": 50,
+    "R1_B0_correct": 33,
+    "R1_total": 33
+  },
+  "additional_experiments_started": false
+}

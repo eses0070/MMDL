@@ -1,0 +1,46 @@
+{
+  "scope": "historical_B0_saved_records_only_not_new_Judge_results",
+  "selection": "seed3407, first2 SHA256(3407|B0_historical|ID) per disagreement direction and question type; selected before reading the samples",
+  "review_method": "Read saved Student response tails, original Judge JSON, terminal-rule result and unchanged common-parser verdict; no score modification",
+  "cases": [
+    {
+      "id": "validation_Mechanical_Engineering_29",
+      "category": "explicit_final_option_format_recovery",
+      "observation": "Student explicitly commits to a final option with a mathematical expression. Common parser rejects the exact option-content format; Judge extracts the committed key. Final-answer recovery does not validate the preceding mechanics reasoning."
+    },
+    {
+      "id": "validation_Psychology_18",
+      "category": "explicit_final_option_format_recovery",
+      "observation": "Student explicitly commits to one option. Common parser reports option_text_mismatch while Judge maps the key. Judge reason also discusses correctness, exceeding pure extraction in its explanation; the MC payload contains no GT."
+    },
+    {
+      "id": "validation_Math_15",
+      "category": "open_unit_expression_equivalence",
+      "observation": "Final number carries physical units; accepted-answer strings omit units. Historical Judge accepts equivalence while the fixed common parser retains the unit distinction."
+    },
+    {
+      "id": "validation_Finance_30",
+      "category": "open_precision_acceptance_potential_leniency",
+      "observation": "Judge explicitly accepts a more precise decimal monetary output against an integer accepted answer. This is a difference in tolerance/precision policy, not proof of improved reasoning. Historical verdict is preserved."
+    },
+    {
+      "id": "validation_Design_27",
+      "category": "invalid_MC_Judge_schema_followed_by_conservative_rule_failure",
+      "observation": "Judge returns open-question status correct and an option-plus-content answer for an MC item, violating the required matched/key schema. Rule then fails because the final nonempty line is a commentary note. The common parser accepts the earlier explicit final answer. No new fallback added."
+    },
+    {
+      "id": "validation_Electronics_14",
+      "category": "uncommitted_truncated_response_policy_difference",
+      "observation": "Student chooses an option earlier but continues reconsidering and ends mid-sentence. Judge is uncertain, terminal rule cannot extract a final line, while common parser retains an earlier explicit answer. This difference concerns final commitment and termination policy."
+    }
+  ],
+  "counts": {
+    "reviewed": 6,
+    "explicit_final_format_recovery": 2,
+    "open_equivalence_or_precision": 2,
+    "MC_schema_then_terminal_failure": 1,
+    "uncommitted_truncation": 1
+  },
+  "main_scores_modified": false,
+  "reasoning_accuracy_not_established": true
+}

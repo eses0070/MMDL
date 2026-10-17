@@ -1,0 +1,436 @@
+{
+  "ids": [
+    "validation_Accounting_10",
+    "validation_Accounting_21",
+    "validation_Math_13",
+    "validation_Math_19",
+    "validation_Mechanical_Engineering_15",
+    "validation_Mechanical_Engineering_20"
+  ],
+  "complete": true,
+  "human_review_subset": {
+    "reviewed_model": "E4",
+    "ids": [
+      "validation_Accounting_10",
+      "validation_Accounting_21"
+    ],
+    "selection": "Subset of the six IDs fixed before new evaluation results",
+    "observations_ko": [
+      "Accounting_10은 현금 흐름 분류와 산술 과정을 여러 단계로 제시하고 최종 답을 출력했다. 동일 문항의 E1/E2/E3 저장 출력은 한 글자 답이었다.",
+      "Accounting_21은 공식 설명·계산·선택지 해석을 포함하고 최종 답을 명시했다."
+    ],
+    "all_reasoning_steps_semantically_proved": false,
+    "no_original_question_answer_or_response_text_published": true
+  },
+  "review_method": "Deterministic fixed-ID output inspection: token count, multiline, numeric equation and explanation-marker counts; no correctness inferred from style; not a semantic human reasoning-quality audit",
+  "models": {
+    "B0": [
+      {
+        "id": "validation_Accounting_10",
+        "correct": true,
+        "output_tokens": 579,
+        "style": {
+          "multiline": 1,
+          "equation_like": 1,
+          "explanation_markers": 1,
+          "not_reasoning_quality_measure": true
+        }
+      },
+      {
+        "id": "validation_Accounting_21",
+        "correct": false,
+        "output_tokens": 8192,
+        "style": {
+          "multiline": 1,
+          "equation_like": 0,
+          "explanation_markers": 1,
+          "not_reasoning_quality_measure": true
+        }
+      },
+      {
+        "id": "validation_Math_13",
+        "correct": false,
+        "output_tokens": 5769,
+        "style": {
+          "multiline": 1,
+          "equation_like": 1,
+          "explanation_markers": 1,
+          "not_reasoning_quality_measure": true
+        }
+      },
+      {
+        "id": "validation_Math_19",
+        "correct": true,
+        "output_tokens": 4766,
+        "style": {
+          "multiline": 1,
+          "equation_like": 0,
+          "explanation_markers": 1,
+          "not_reasoning_quality_measure": true
+        }
+      },
+      {
+        "id": "validation_Mechanical_Engineering_15",
+        "correct": false,
+        "output_tokens": 796,
+        "style": {
+          "multiline": 1,
+          "equation_like": 0,
+          "explanation_markers": 1,
+          "not_reasoning_quality_measure": true
+        }
+      },
+      {
+        "id": "validation_Mechanical_Engineering_20",
+        "correct": true,
+        "output_tokens": 1144,
+        "style": {
+          "multiline": 1,
+          "equation_like": 1,
+          "explanation_markers": 1,
+          "not_reasoning_quality_measure": true
+        }
+      }
+    ],
+    "E1": [
+      {
+        "id": "validation_Accounting_10",
+        "correct": true,
+        "output_tokens": 2,
+        "style": {
+          "multiline": 0,
+          "equation_like": 0,
+          "explanation_markers": 0,
+          "not_reasoning_quality_measure": true
+        }
+      },
+      {
+        "id": "validation_Accounting_21",
+        "correct": true,
+        "output_tokens": 2,
+        "style": {
+          "multiline": 0,
+          "equation_like": 0,
+          "explanation_markers": 0,
+          "not_reasoning_quality_measure": true
+        }
+      },
+      {
+        "id": "validation_Math_13",
+        "correct": false,
+        "output_tokens": 2,
+        "style": {
+          "multiline": 0,
+          "equation_like": 0,
+          "explanation_markers": 0,
+          "not_reasoning_quality_measure": true
+        }
+      },
+      {
+        "id": "validation_Math_19",
+        "correct": true,
+        "output_tokens": 2,
+        "style": {
+          "multiline": 0,
+          "equation_like": 0,
+          "explanation_markers": 0,
+          "not_reasoning_quality_measure": true
+        }
+      },
+      {
+        "id": "validation_Mechanical_Engineering_15",
+        "correct": false,
+        "output_tokens": 2,
+        "style": {
+          "multiline": 0,
+          "equation_like": 0,
+          "explanation_markers": 0,
+          "not_reasoning_quality_measure": true
+        }
+      },
+      {
+        "id": "validation_Mechanical_Engineering_20",
+        "correct": false,
+        "output_tokens": 7,
+        "style": {
+          "multiline": 0,
+          "equation_like": 0,
+          "explanation_markers": 0,
+          "not_reasoning_quality_measure": true
+        }
+      }
+    ],
+    "E2": [
+      {
+        "id": "validation_Accounting_10",
+        "correct": true,
+        "output_tokens": 2,
+        "style": {
+          "multiline": 0,
+          "equation_like": 0,
+          "explanation_markers": 0,
+          "not_reasoning_quality_measure": true
+        }
+      },
+      {
+        "id": "validation_Accounting_21",
+        "correct": true,
+        "output_tokens": 2,
+        "style": {
+          "multiline": 0,
+          "equation_like": 0,
+          "explanation_markers": 0,
+          "not_reasoning_quality_measure": true
+        }
+      },
+      {
+        "id": "validation_Math_13",
+        "correct": false,
+        "output_tokens": 2,
+        "style": {
+          "multiline": 0,
+          "equation_like": 0,
+          "explanation_markers": 0,
+          "not_reasoning_quality_measure": true
+        }
+      },
+      {
+        "id": "validation_Math_19",
+        "correct": true,
+        "output_tokens": 2,
+        "style": {
+          "multiline": 0,
+          "equation_like": 0,
+          "explanation_markers": 0,
+          "not_reasoning_quality_measure": true
+        }
+      },
+      {
+        "id": "validation_Mechanical_Engineering_15",
+        "correct": false,
+        "output_tokens": 2,
+        "style": {
+          "multiline": 0,
+          "equation_like": 0,
+          "explanation_markers": 0,
+          "not_reasoning_quality_measure": true
+        }
+      },
+      {
+        "id": "validation_Mechanical_Engineering_20",
+        "correct": false,
+        "output_tokens": 2,
+        "style": {
+          "multiline": 0,
+          "equation_like": 0,
+          "explanation_markers": 0,
+          "not_reasoning_quality_measure": true
+        }
+      }
+    ],
+    "E3": [
+      {
+        "id": "validation_Accounting_10",
+        "correct": true,
+        "output_tokens": 2,
+        "style": {
+          "multiline": 0,
+          "equation_like": 0,
+          "explanation_markers": 0,
+          "not_reasoning_quality_measure": true
+        }
+      },
+      {
+        "id": "validation_Accounting_21",
+        "correct": true,
+        "output_tokens": 2,
+        "style": {
+          "multiline": 0,
+          "equation_like": 0,
+          "explanation_markers": 0,
+          "not_reasoning_quality_measure": true
+        }
+      },
+      {
+        "id": "validation_Math_13",
+        "correct": false,
+        "output_tokens": 2,
+        "style": {
+          "multiline": 0,
+          "equation_like": 0,
+          "explanation_markers": 0,
+          "not_reasoning_quality_measure": true
+        }
+      },
+      {
+        "id": "validation_Math_19",
+        "correct": true,
+        "output_tokens": 2,
+        "style": {
+          "multiline": 0,
+          "equation_like": 0,
+          "explanation_markers": 0,
+          "not_reasoning_quality_measure": true
+        }
+      },
+      {
+        "id": "validation_Mechanical_Engineering_15",
+        "correct": false,
+        "output_tokens": 2,
+        "style": {
+          "multiline": 0,
+          "equation_like": 0,
+          "explanation_markers": 0,
+          "not_reasoning_quality_measure": true
+        }
+      },
+      {
+        "id": "validation_Mechanical_Engineering_20",
+        "correct": true,
+        "output_tokens": 2,
+        "style": {
+          "multiline": 0,
+          "equation_like": 0,
+          "explanation_markers": 0,
+          "not_reasoning_quality_measure": true
+        }
+      }
+    ],
+    "E4": [
+      {
+        "id": "validation_Accounting_10",
+        "correct": true,
+        "output_tokens": 525,
+        "style": {
+          "multiline": 1,
+          "equation_like": 1,
+          "explanation_markers": 1,
+          "not_reasoning_quality_measure": true
+        }
+      },
+      {
+        "id": "validation_Accounting_21",
+        "correct": true,
+        "output_tokens": 1735,
+        "style": {
+          "multiline": 1,
+          "equation_like": 1,
+          "explanation_markers": 1,
+          "not_reasoning_quality_measure": true
+        }
+      },
+      {
+        "id": "validation_Math_13",
+        "correct": false,
+        "output_tokens": 8192,
+        "style": {
+          "multiline": 1,
+          "equation_like": 1,
+          "explanation_markers": 1,
+          "not_reasoning_quality_measure": true
+        }
+      },
+      {
+        "id": "validation_Math_19",
+        "correct": true,
+        "output_tokens": 7088,
+        "style": {
+          "multiline": 1,
+          "equation_like": 1,
+          "explanation_markers": 1,
+          "not_reasoning_quality_measure": true
+        }
+      },
+      {
+        "id": "validation_Mechanical_Engineering_15",
+        "correct": false,
+        "output_tokens": 488,
+        "style": {
+          "multiline": 1,
+          "equation_like": 0,
+          "explanation_markers": 0,
+          "not_reasoning_quality_measure": true
+        }
+      },
+      {
+        "id": "validation_Mechanical_Engineering_20",
+        "correct": true,
+        "output_tokens": 2139,
+        "style": {
+          "multiline": 1,
+          "equation_like": 1,
+          "explanation_markers": 1,
+          "not_reasoning_quality_measure": true
+        }
+      }
+    ],
+    "E5": [
+      {
+        "id": "validation_Accounting_10",
+        "correct": true,
+        "output_tokens": 358,
+        "style": {
+          "multiline": 1,
+          "equation_like": 1,
+          "explanation_markers": 1,
+          "not_reasoning_quality_measure": true
+        }
+      },
+      {
+        "id": "validation_Accounting_21",
+        "correct": true,
+        "output_tokens": 527,
+        "style": {
+          "multiline": 1,
+          "equation_like": 1,
+          "explanation_markers": 1,
+          "not_reasoning_quality_measure": true
+        }
+      },
+      {
+        "id": "validation_Math_13",
+        "correct": false,
+        "output_tokens": 8192,
+        "style": {
+          "multiline": 1,
+          "equation_like": 1,
+          "explanation_markers": 1,
+          "not_reasoning_quality_measure": true
+        }
+      },
+      {
+        "id": "validation_Math_19",
+        "correct": true,
+        "output_tokens": 55,
+        "style": {
+          "multiline": 1,
+          "equation_like": 0,
+          "explanation_markers": 1,
+          "not_reasoning_quality_measure": true
+        }
+      },
+      {
+        "id": "validation_Mechanical_Engineering_15",
+        "correct": false,
+        "output_tokens": 44,
+        "style": {
+          "multiline": 1,
+          "equation_like": 0,
+          "explanation_markers": 1,
+          "not_reasoning_quality_measure": true
+        }
+      },
+      {
+        "id": "validation_Mechanical_Engineering_20",
+        "correct": true,
+        "output_tokens": 242,
+        "style": {
+          "multiline": 1,
+          "equation_like": 1,
+          "explanation_markers": 1,
+          "not_reasoning_quality_measure": true
+        }
+      }
+    ]
+  }
+}
