@@ -1,6 +1,6 @@
 # CoT 압축 비교 실험
 
-브랜치: `exp/cot-compression`
+브랜치: `seokmin`
 
 시작일: 2026-11-20 (KST)
 
@@ -38,7 +38,7 @@ experiments/cot_compression/
 ```bash
 mkdir -p "$HOME/shared_dir/mmdl"
 cd "$HOME/shared_dir/mmdl"
-git clone --branch exp/cot-compression --single-branch https://github.com/eses0070/MMDL.git MMDL-cot-compression
+git clone --branch seokmin --single-branch https://github.com/eses0070/MMDL.git MMDL-cot-compression
 cd MMDL-cot-compression/experiments/cot_compression
 python -B preflight.py
 ```
