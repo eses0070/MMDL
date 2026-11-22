@@ -1,0 +1,18 @@
+{
+  "version": "quantity-rules-v1",
+  "target": "semantic equivalence of quantities, not requested answer-format compliance",
+  "routing": "Rules inspect only full question/reference/candidate strings. No IDs, labels, saved decisions or confidence scores select the route.",
+  "numeric_forms": ["signed integer", "decimal", "scientific notation", "proper thousands commas", "simple rational fraction", "complete simple LaTeX fraction", "English zero through ninety-nine", "one thousand/million/billion/trillion multiplier"],
+  "unit_families": ["mass", "length", "area", "volume", "duration", "percentage/ratio", "explicit currency identity"],
+  "matching": "Exact rational equality after a fixed dimension-preserving conversion. No float epsilon, no universal rounding and no exchange-rate inference.",
+  "missing_units": "Infer only from explicit recognized requested units in the question. Never borrow missing units merely from the reference or silently drop units.",
+  "percent": "Each explicit % scales its own numeric value by 1/100. Bare answers to a percent request use percent units; 'of the total' is a dimensionless fraction.",
+  "context": "Ambiguous/multiple requested units, unsupported compound units, dates/identifiers and rounding policies fall back.",
+  "whole_answer": "No CoT mining, no selecting one number from prose, no deleting competing answers or negations.",
+  "fallback": "Keep the unchanged legacy Qwen3-8B decision, including invalid/uncertain. Stored records are reused for this identical-input replay.",
+  "not_supported": ["general symbolic formulas and square roots", "ranges/inequalities/approximations", "arbitrary prose containing numbers", "unknown or ambiguous units", "density-dependent conversions", "calendar month/year conversion", "temperature offsets", "FX", "automatic significant-figure/rounding tolerance"],
+  "evaluation_scope": "Already-inspected dev200 and probes20. Retrospective development comparison; not a new held-out benchmark.",
+  "policy_fixed_before_hybrid_scores": true,
+  "case_specific_exceptions": false,
+  "gpu_required_for_replay": false
+}

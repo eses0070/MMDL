@@ -1,0 +1,39 @@
+{
+  "status": "complete",
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "limit": 0,
+  "input_integrity": {
+    "inputs/predictions.jsonl": "a2336c6a92acbb190ae6c1a40085c97db942158ea107ae1db5469451c3734e39",
+    "inputs/current_judgments.jsonl": "a7f0cc322abf8c3ec10dcb5f96de78750a414f514e68f60226366a19a0943820",
+    "inputs/original_judgments.jsonl": "1469044f6f41cd355b1875e591e11201574bc4bface3489838098338ba471a4b",
+    "inputs/original_judge_config.json": "1934d9c8b7cbcf3ba0c678a18bf422d1f1cf70249596c2207266022a092440bf",
+    "frozen/numeric_rules.py": "5d06cffb56ab97e25592bf8e7bd7969c2eb6a95bc421f9911367a0bad580fd75",
+    "frozen/answer_parser.py": "a2bfd7b670d7009d9dc0184bcc1e9c31260d369fe1b47e9f6cd9c1f47db5c190",
+    "frozen/legacy.py": "170f02d5205026b2aba6df39c93aebfbc3798f3ba8a241f05629eec490b205e8",
+    "frozen/AE_RULE_POLICY.json": "a859b2ad9b6852cef95b2046dbfd592fa904202b1a122d83acb327bf31ab0c7f",
+    "frozen/terminal_format.py": "dda9bd05f41a594589fe2cf4dde553cc8cf47225178d8bd172e88c9f9196cd2b",
+    "tests/reference/numeric_regression.py": "753fffae96318beb480ec0a19a8d40b788891acf85ee4afcee685ca66e0fcb96"
+  },
+  "code_sha256": {
+    "inspect_item.py": "8b4615261e8570ccc69b6c184668ce75400f60a7aff7d32cee3be7d9d312076c",
+    "mc_parser.py": "6dffac84a3ac33ebda9cf626e77dc402cab4a22c9b9d7a943044a5b89c09ed44",
+    "replay.py": "2e51cd40ddb304d7508c1c919433719888766fda81c2dce67ec16cd9872a9b8d"
+  },
+  "new_judge_calls": 0,
+  "judge": "Original saved Qwen3-8B answer field plus candidate-evidence checks",
+  "gt_policy": "Only after extraction to score selected letter; no GT passed to mc_parser.decide",
+  "length_policy": "Do not extract incomplete generation; preserve existing verdict",
+  "remaining_policy": "Keep parse_success=false and answer_correct=null; correct=false for aggregate score",
+  "reasoning_evaluated": false,
+  "official_scoring": false,
+  "output_sha256": {
+    "audit.jsonl": "b2f4360237fc138e3dad25184a11186d5836e2fcf6fa4308e4bc30100d24500a",
+    "changed_verdicts.jsonl": "9712ab6785e8fa8fe86207e5b0687785ba0acbdb10a1c1641f5bb0d4a52f3979",
+    "comparison.md": "a272f8215a4b3142ae3f59aac8fdb7d09dcceb83687f29b30c7053e8f34ee4f1",
+    "judgments.jsonl": "1accd10e79f2465b9ee37962c9878e0dc2c6b630d332df0de2feb299e5cd5fbd",
+    "recovered.jsonl": "bd9cb654a9a334d8927b7566066bc730fc9d4f3d49dba24abaf3807c00623dca",
+    "remaining.jsonl": "e4a2e91a2d11e9a1d987514b00c2653bf1549ad85b3440dad46faf66970c88ed",
+    "summary.json": "374c96d511e8111b38389258ed174ba1e496c7e9a89ad798e1d8d471cb36f2f4"
+  }
+}

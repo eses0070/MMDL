@@ -1,0 +1,414 @@
+{
+  "protocol": "mc46-hybrid-v1",
+  "target_total": 46,
+  "selected": 46,
+  "audited": 46,
+  "complete_target_audit": true,
+  "originally_unresolved_mc": 81,
+  "previously_recovered_mc": 35,
+  "newly_extracted": 6,
+  "newly_extracted_correct": 4,
+  "newly_extracted_incorrect": 2,
+  "remaining_unextracted_mc": 40,
+  "remaining_ids": [
+    "validation_Accounting_22",
+    "validation_Accounting_28",
+    "validation_Architecture_and_Engineering_9",
+    "validation_Architecture_and_Engineering_13",
+    "validation_Architecture_and_Engineering_17",
+    "validation_Architecture_and_Engineering_18",
+    "validation_Architecture_and_Engineering_22",
+    "validation_Architecture_and_Engineering_26",
+    "validation_Computer_Science_12",
+    "validation_Electronics_7",
+    "validation_Electronics_9",
+    "validation_Electronics_14",
+    "validation_Electronics_17",
+    "validation_Electronics_28",
+    "validation_Energy_and_Power_1",
+    "validation_Energy_and_Power_4",
+    "validation_Energy_and_Power_8",
+    "validation_Energy_and_Power_9",
+    "validation_Energy_and_Power_12",
+    "validation_Energy_and_Power_13",
+    "validation_Energy_and_Power_14",
+    "validation_Energy_and_Power_17",
+    "validation_Energy_and_Power_22",
+    "validation_Marketing_23",
+    "validation_Materials_4",
+    "validation_Materials_5",
+    "validation_Materials_6",
+    "validation_Materials_9",
+    "validation_Materials_20",
+    "validation_Materials_22",
+    "validation_Math_16",
+    "validation_Mechanical_Engineering_4",
+    "validation_Mechanical_Engineering_8",
+    "validation_Mechanical_Engineering_27",
+    "validation_Mechanical_Engineering_28",
+    "validation_Music_14",
+    "validation_Music_23",
+    "validation_Music_25",
+    "validation_Music_27",
+    "validation_Physics_18"
+  ],
+  "unselected": 0,
+  "generation_finish_counts": {
+    "length": 40,
+    "stop": 6
+  },
+  "routes": {
+    "generation_guard": 40,
+    "cached_qwen_supported": 4,
+    "diagram_label_as_option_content": 1,
+    "letter_with_literal_content": 1
+  },
+  "unresolved_reasons": {
+    "incomplete_generation": 40
+  },
+  "newly_extracted_ids": [
+    "validation_Agriculture_12",
+    "validation_Basic_Medical_Science_17",
+    "validation_Biology_3",
+    "validation_Design_27",
+    "validation_Diagnostics_and_Laboratory_Medicine_30",
+    "validation_Psychology_21"
+  ],
+  "changed_verdict_ids": [
+    "validation_Basic_Medical_Science_17",
+    "validation_Biology_3",
+    "validation_Design_27",
+    "validation_Psychology_21"
+  ],
+  "new_model_inferences": 0,
+  "new_judge_calls": 0,
+  "cached_judge_records_used": 4,
+  "before": {
+    "count": 900,
+    "correct": 564,
+    "accuracy_pct": 62.666666666666664,
+    "scoring_unresolved": 0,
+    "subjects": {
+      "Accounting": {
+        "count": 30,
+        "correct": 23,
+        "accuracy_pct": 76.66666666666667
+      },
+      "Agriculture": {
+        "count": 30,
+        "correct": 15,
+        "accuracy_pct": 50.0
+      },
+      "Architecture_and_Engineering": {
+        "count": 30,
+        "correct": 15,
+        "accuracy_pct": 50.0
+      },
+      "Art": {
+        "count": 30,
+        "correct": 20,
+        "accuracy_pct": 66.66666666666667
+      },
+      "Art_Theory": {
+        "count": 30,
+        "correct": 26,
+        "accuracy_pct": 86.66666666666667
+      },
+      "Basic_Medical_Science": {
+        "count": 30,
+        "correct": 22,
+        "accuracy_pct": 73.33333333333333
+      },
+      "Biology": {
+        "count": 30,
+        "correct": 19,
+        "accuracy_pct": 63.333333333333336
+      },
+      "Chemistry": {
+        "count": 30,
+        "correct": 11,
+        "accuracy_pct": 36.666666666666664
+      },
+      "Clinical_Medicine": {
+        "count": 30,
+        "correct": 18,
+        "accuracy_pct": 60.0
+      },
+      "Computer_Science": {
+        "count": 30,
+        "correct": 18,
+        "accuracy_pct": 60.0
+      },
+      "Design": {
+        "count": 30,
+        "correct": 22,
+        "accuracy_pct": 73.33333333333333
+      },
+      "Diagnostics_and_Laboratory_Medicine": {
+        "count": 30,
+        "correct": 10,
+        "accuracy_pct": 33.333333333333336
+      },
+      "Economics": {
+        "count": 30,
+        "correct": 25,
+        "accuracy_pct": 83.33333333333333
+      },
+      "Electronics": {
+        "count": 30,
+        "correct": 13,
+        "accuracy_pct": 43.333333333333336
+      },
+      "Energy_and_Power": {
+        "count": 30,
+        "correct": 14,
+        "accuracy_pct": 46.666666666666664
+      },
+      "Finance": {
+        "count": 30,
+        "correct": 21,
+        "accuracy_pct": 70.0
+      },
+      "Geography": {
+        "count": 30,
+        "correct": 17,
+        "accuracy_pct": 56.666666666666664
+      },
+      "History": {
+        "count": 30,
+        "correct": 21,
+        "accuracy_pct": 70.0
+      },
+      "Literature": {
+        "count": 30,
+        "correct": 25,
+        "accuracy_pct": 83.33333333333333
+      },
+      "Manage": {
+        "count": 30,
+        "correct": 21,
+        "accuracy_pct": 70.0
+      },
+      "Marketing": {
+        "count": 30,
+        "correct": 25,
+        "accuracy_pct": 83.33333333333333
+      },
+      "Materials": {
+        "count": 30,
+        "correct": 14,
+        "accuracy_pct": 46.666666666666664
+      },
+      "Math": {
+        "count": 30,
+        "correct": 18,
+        "accuracy_pct": 60.0
+      },
+      "Mechanical_Engineering": {
+        "count": 30,
+        "correct": 11,
+        "accuracy_pct": 36.666666666666664
+      },
+      "Music": {
+        "count": 30,
+        "correct": 10,
+        "accuracy_pct": 33.333333333333336
+      },
+      "Pharmacy": {
+        "count": 30,
+        "correct": 25,
+        "accuracy_pct": 83.33333333333333
+      },
+      "Physics": {
+        "count": 30,
+        "correct": 23,
+        "accuracy_pct": 76.66666666666667
+      },
+      "Psychology": {
+        "count": 30,
+        "correct": 20,
+        "accuracy_pct": 66.66666666666667
+      },
+      "Public_Health": {
+        "count": 30,
+        "correct": 24,
+        "accuracy_pct": 80.0
+      },
+      "Sociology": {
+        "count": 30,
+        "correct": 18,
+        "accuracy_pct": 60.0
+      }
+    }
+  },
+  "after": {
+    "count": 900,
+    "correct": 568,
+    "accuracy_pct": 63.111111111111114,
+    "scoring_unresolved": 0,
+    "subjects": {
+      "Accounting": {
+        "count": 30,
+        "correct": 23,
+        "accuracy_pct": 76.66666666666667
+      },
+      "Agriculture": {
+        "count": 30,
+        "correct": 15,
+        "accuracy_pct": 50.0
+      },
+      "Architecture_and_Engineering": {
+        "count": 30,
+        "correct": 15,
+        "accuracy_pct": 50.0
+      },
+      "Art": {
+        "count": 30,
+        "correct": 20,
+        "accuracy_pct": 66.66666666666667
+      },
+      "Art_Theory": {
+        "count": 30,
+        "correct": 26,
+        "accuracy_pct": 86.66666666666667
+      },
+      "Basic_Medical_Science": {
+        "count": 30,
+        "correct": 23,
+        "accuracy_pct": 76.66666666666667
+      },
+      "Biology": {
+        "count": 30,
+        "correct": 20,
+        "accuracy_pct": 66.66666666666667
+      },
+      "Chemistry": {
+        "count": 30,
+        "correct": 11,
+        "accuracy_pct": 36.666666666666664
+      },
+      "Clinical_Medicine": {
+        "count": 30,
+        "correct": 18,
+        "accuracy_pct": 60.0
+      },
+      "Computer_Science": {
+        "count": 30,
+        "correct": 18,
+        "accuracy_pct": 60.0
+      },
+      "Design": {
+        "count": 30,
+        "correct": 23,
+        "accuracy_pct": 76.66666666666667
+      },
+      "Diagnostics_and_Laboratory_Medicine": {
+        "count": 30,
+        "correct": 10,
+        "accuracy_pct": 33.333333333333336
+      },
+      "Economics": {
+        "count": 30,
+        "correct": 25,
+        "accuracy_pct": 83.33333333333333
+      },
+      "Electronics": {
+        "count": 30,
+        "correct": 13,
+        "accuracy_pct": 43.333333333333336
+      },
+      "Energy_and_Power": {
+        "count": 30,
+        "correct": 14,
+        "accuracy_pct": 46.666666666666664
+      },
+      "Finance": {
+        "count": 30,
+        "correct": 21,
+        "accuracy_pct": 70.0
+      },
+      "Geography": {
+        "count": 30,
+        "correct": 17,
+        "accuracy_pct": 56.666666666666664
+      },
+      "History": {
+        "count": 30,
+        "correct": 21,
+        "accuracy_pct": 70.0
+      },
+      "Literature": {
+        "count": 30,
+        "correct": 25,
+        "accuracy_pct": 83.33333333333333
+      },
+      "Manage": {
+        "count": 30,
+        "correct": 21,
+        "accuracy_pct": 70.0
+      },
+      "Marketing": {
+        "count": 30,
+        "correct": 25,
+        "accuracy_pct": 83.33333333333333
+      },
+      "Materials": {
+        "count": 30,
+        "correct": 14,
+        "accuracy_pct": 46.666666666666664
+      },
+      "Math": {
+        "count": 30,
+        "correct": 18,
+        "accuracy_pct": 60.0
+      },
+      "Mechanical_Engineering": {
+        "count": 30,
+        "correct": 11,
+        "accuracy_pct": 36.666666666666664
+      },
+      "Music": {
+        "count": 30,
+        "correct": 10,
+        "accuracy_pct": 33.333333333333336
+      },
+      "Pharmacy": {
+        "count": 30,
+        "correct": 25,
+        "accuracy_pct": 83.33333333333333
+      },
+      "Physics": {
+        "count": 30,
+        "correct": 23,
+        "accuracy_pct": 76.66666666666667
+      },
+      "Psychology": {
+        "count": 30,
+        "correct": 21,
+        "accuracy_pct": 70.0
+      },
+      "Public_Health": {
+        "count": 30,
+        "correct": 24,
+        "accuracy_pct": 80.0
+      },
+      "Sociology": {
+        "count": 30,
+        "correct": 18,
+        "accuracy_pct": 60.0
+      }
+    }
+  },
+  "untargeted_records_unchanged": 854,
+  "open_records_unchanged": 53,
+  "numeric_rules_version": "quantity-rules-v1",
+  "interpretation": "Local final-answer scoring with remaining abstentions counted wrong; not official MMMU scoring or judge accuracy.",
+  "limitations": [
+    "40 originally length-limited target answers are guarded; this is not proof that no final choice appears anywhere in them.",
+    "Cached original Qwen answer proposals are not fresh judge calls; explicit supporting choice anchors are required.",
+    "The MC extraction/mapping layer is new; only the AE quantity comparison module is unchanged.",
+    "No image, reasoning verification, independent extraction labels, or unseen evaluation here."
+  ],
+  "dry_run": false,
+  "elapsed_seconds": 0.20135240000672638
+}

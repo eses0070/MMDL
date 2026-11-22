@@ -1,0 +1,64 @@
+{
+  "source_zip_validation": {
+    "unit_tests_passed": 69,
+    "numeric_generated_pairs_checked": 480,
+    "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+    "old_files_checked": 872,
+    "old_files_changed": [],
+    "git_used": false,
+    "remaining_mc_selected": 46,
+    "audited": 46,
+    "newly_extracted": 6,
+    "new_correct": 4,
+    "new_incorrect": 2,
+    "remaining_generation_limited": 40,
+    "before_correct": 564,
+    "after_correct": 568,
+    "source_records_byte_identical": 894,
+    "untargeted_854_byte_identical": true,
+    "new_model_inferences": 0,
+    "new_judge_calls": 0,
+    "cached_judge_support_records": 4,
+    "numeric_route_recoveries": 0,
+    "numeric_rules_unchanged_sha256": "5d06cffb56ab97e25592bf8e7bd7969c2eb6a95bc421f9911367a0bad580fd75",
+    "archive_validation": "passed",
+    "archive_unit_tests_passed": 69,
+    "archive_replay_identical": {
+      "judgments.jsonl": true,
+      "audit.jsonl": true,
+      "recovered.jsonl": true,
+      "changed_verdicts.jsonl": true,
+      "remaining.jsonl": true
+    }
+  },
+  "git_publication_validation": {
+    "display_name": "파서 v2",
+    "directory": "experiments/parser_v2",
+    "target_branch": "seokmin",
+    "source_archive_name": "MMDL-MC46-hybrid-v1.zip",
+    "source_archive_sha256": "808acb9a738a376e8a4fb30db3fba0d2dfcd47f2dc7c39d901dede269c1c505c",
+    "code_module_rename": {
+      "from": "mc_hybrid.py",
+      "to": "mc_parser.py",
+      "algorithm_changes": false
+    },
+    "publication_changes": [
+      "Public names and Git reproduction instructions",
+      "New assignment report",
+      "Byte-preserving Git attributes"
+    ],
+    "unit_tests_passed": 69,
+    "replay_results_identical_to_delivered_zip": {
+      "judgments.jsonl": true,
+      "audit.jsonl": true,
+      "recovered.jsonl": true,
+      "changed_verdicts.jsonl": true,
+      "remaining.jsonl": true
+    },
+    "existing_repository_files_checked": 309,
+    "existing_repository_files_changed": 0,
+    "new_result_correct": 568,
+    "new_result_total": 900,
+    "remaining_unextracted_mc": 40
+  }
+}

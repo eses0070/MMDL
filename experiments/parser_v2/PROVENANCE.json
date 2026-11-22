@@ -1,0 +1,42 @@
+{
+  "inputs/predictions.jsonl": {
+    "source": "C:\\Users\\rouistooni\\Desktop\\4-2\\멀티모달딥러닝\\MMDL-MMMU-hybrid-v1\\inputs\\predictions.jsonl",
+    "sha256": "a2336c6a92acbb190ae6c1a40085c97db942158ea107ae1db5469451c3734e39"
+  },
+  "inputs/current_judgments.jsonl": {
+    "source": "C:\\Users\\rouistooni\\Desktop\\4-2\\멀티모달딥러닝\\MMDL-MMMU-hybrid-v1\\inputs\\current_judgments.jsonl",
+    "sha256": "a7f0cc322abf8c3ec10dcb5f96de78750a414f514e68f60226366a19a0943820"
+  },
+  "inputs/original_judgments.jsonl": {
+    "source": "C:\\Users\\rouistooni\\Desktop\\4-2\\멀티모달딥러닝\\MMDL-MMMU-hybrid-v1\\inputs\\original_judgments.jsonl",
+    "sha256": "1469044f6f41cd355b1875e591e11201574bc4bface3489838098338ba471a4b"
+  },
+  "inputs/original_judge_config.json": {
+    "source": "C:\\Users\\rouistooni\\Desktop\\4-2\\멀티모달딥러닝\\MMDL-MMMU-hybrid-v1\\inputs\\original_judge_config.json",
+    "sha256": "1934d9c8b7cbcf3ba0c678a18bf422d1f1cf70249596c2207266022a092440bf"
+  },
+  "frozen/numeric_rules.py": {
+    "source": "C:\\Users\\rouistooni\\Desktop\\4-2\\멀티모달딥러닝\\MMDL-MMMU-hybrid-v1\\frozen\\numeric_rules.py",
+    "sha256": "5d06cffb56ab97e25592bf8e7bd7969c2eb6a95bc421f9911367a0bad580fd75"
+  },
+  "frozen/answer_parser.py": {
+    "source": "C:\\Users\\rouistooni\\Desktop\\4-2\\멀티모달딥러닝\\MMDL-MMMU-hybrid-v1\\frozen\\answer_parser.py",
+    "sha256": "a2bfd7b670d7009d9dc0184bcc1e9c31260d369fe1b47e9f6cd9c1f47db5c190"
+  },
+  "frozen/legacy.py": {
+    "source": "C:\\Users\\rouistooni\\Desktop\\4-2\\멀티모달딥러닝\\MMDL-MMMU-hybrid-v1\\frozen\\legacy.py",
+    "sha256": "170f02d5205026b2aba6df39c93aebfbc3798f3ba8a241f05629eec490b205e8"
+  },
+  "frozen/AE_RULE_POLICY.json": {
+    "source": "C:\\Users\\rouistooni\\Desktop\\4-2\\멀티모달딥러닝\\MMDL-MMMU-hybrid-v1\\frozen\\AE_RULE_POLICY.json",
+    "sha256": "a859b2ad9b6852cef95b2046dbfd592fa904202b1a122d83acb327bf31ab0c7f"
+  },
+  "frozen/terminal_format.py": {
+    "source": "C:\\Users\\rouistooni\\Desktop\\4-2\\멀티모달딥러닝\\MMDL-MMMU-hybrid-v1\\extraction.py",
+    "sha256": "dda9bd05f41a594589fe2cf4dde553cc8cf47225178d8bd172e88c9f9196cd2b"
+  },
+  "tests/reference/numeric_regression.py": {
+    "source": "C:\\Users\\rouistooni\\Desktop\\4-2\\멀티모달딥러닝\\MMDL-MMMU-hybrid-v1\\tests\\reference\\numeric_regression.py",
+    "sha256": "753fffae96318beb480ec0a19a8d40b788891acf85ee4afcee685ca66e0fcb96"
+  }
+}

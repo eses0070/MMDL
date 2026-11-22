@@ -1,0 +1,30 @@
+{
+  "display_name": "파서 v2",
+  "directory": "experiments/parser_v2",
+  "target_branch": "seokmin",
+  "source_archive_name": "MMDL-MC46-hybrid-v1.zip",
+  "source_archive_sha256": "808acb9a738a376e8a4fb30db3fba0d2dfcd47f2dc7c39d901dede269c1c505c",
+  "code_module_rename": {
+    "from": "mc_hybrid.py",
+    "to": "mc_parser.py",
+    "algorithm_changes": false
+  },
+  "publication_changes": [
+    "Public names and Git reproduction instructions",
+    "New assignment report",
+    "Byte-preserving Git attributes"
+  ],
+  "unit_tests_passed": 69,
+  "replay_results_identical_to_delivered_zip": {
+    "judgments.jsonl": true,
+    "audit.jsonl": true,
+    "recovered.jsonl": true,
+    "changed_verdicts.jsonl": true,
+    "remaining.jsonl": true
+  },
+  "existing_repository_files_checked": 309,
+  "existing_repository_files_changed": 0,
+  "new_result_correct": 568,
+  "new_result_total": 900,
+  "remaining_unextracted_mc": 40
+}

@@ -1,0 +1,5 @@
+_build/
+__pycache__/
+*.py[cod]
+results/*
+!results/verified_parser_v2/
