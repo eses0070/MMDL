@@ -14,3 +14,13 @@ NoWait은 자기검토 관련 토큰을 생성 중 억제한다. 답안 전환 �
 후속 실험의 정답 19건은 NoWait 정답을 유지한 8건, NoWait에서 채점 보류였던 2건, 새로 맞힌 9건이다. 채점 보류 1건은 정답 수에서 제외했다. 토큰은 40문항 전체의 생성량이며 재요청 입력은 포함하지 않는다.
 
 [미추출 문항 목록](../../experiments/parser_v2/results/verified_parser_v2/remaining.jsonl) · [NoWait 상세 보고서](https://github.com/Hyeonjin1/mmdl/blob/experiment-backup-20261123/runs/20261123_lab_backup/NOWAIT_REPORT_KO.md) · [답안 전환 상세 보고서](https://github.com/Hyeonjin1/mmdl/blob/experiment-backup-20261123/runs/20261123_lab_backup/nowait-followup/experiment.md)
+
+## 결과 재집계
+
+팀 저장소의 `seokmin` 브랜치에서 Node.js 18 이상으로 실행한다.
+
+```bash
+node experiments/nowait/reproduce_b0.cjs
+```
+
+스크립트는 Parser v2의 40문항 목록과 저장된 실험 집계로 결과표를 다시 계산한다. GPU 추론에 사용한 소스와 설정은 각 상세 보고서에 연결되어 있다.
