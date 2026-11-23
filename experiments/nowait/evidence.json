@@ -1,0 +1,65 @@
+{
+  "archivedB0": {
+    "generationLimit": 8192,
+    "totalTokens": 327680,
+    "source": "https://github.com/eses0070/MMDL/blob/1c4d7b32ab254d8444b401b06750dfb6e2bfca9e/results/validation900_cot8192_guard_full/run_config.json"
+  },
+  "conditions": [
+    {
+      "name": "NoWait",
+      "generated": 40,
+      "scored": 38,
+      "correct": 8,
+      "tokens": 245360,
+      "pending": [
+        "validation_Architecture_and_Engineering_26",
+        "validation_Materials_9"
+      ],
+      "source": "https://github.com/Hyeonjin1/mmdl/blob/experiment-backup-20261123/runs/20261123_lab_backup/nowait-input-audit.json"
+    },
+    {
+      "name": "NoWait · 차단 목록 정제",
+      "generated": 40,
+      "scored": 38,
+      "correct": 8,
+      "tokens": 244736,
+      "pending": [
+        "validation_Architecture_and_Engineering_26",
+        "validation_Materials_9"
+      ],
+      "source": "https://github.com/Hyeonjin1/mmdl/blob/experiment-backup-20261123/runs/20261123_lab_backup/nowait-followup/summary.json"
+    },
+    {
+      "name": "NoWait · 4,096토큰 답안 전환",
+      "generated": 40,
+      "scored": 39,
+      "correct": 19,
+      "tokens": 143648,
+      "pending": [
+        "validation_Energy_and_Power_13"
+      ],
+      "source": "https://github.com/Hyeonjin1/mmdl/blob/experiment-backup-20261123/runs/20261123_lab_backup/nowait-followup/summary.json"
+    }
+  ],
+  "originalNoWaitCorrect": [
+    "validation_Architecture_and_Engineering_18",
+    "validation_Electronics_14",
+    "validation_Energy_and_Power_17",
+    "validation_Marketing_23",
+    "validation_Materials_5",
+    "validation_Mechanical_Engineering_8",
+    "validation_Music_25",
+    "validation_Physics_18"
+  ],
+  "answerSwitchNewCorrect": [
+    "validation_Accounting_22",
+    "validation_Architecture_and_Engineering_9",
+    "validation_Electronics_7",
+    "validation_Energy_and_Power_4",
+    "validation_Energy_and_Power_8",
+    "validation_Energy_and_Power_9",
+    "validation_Materials_22",
+    "validation_Math_16",
+    "validation_Music_23"
+  ]
+}
