@@ -1,0 +1,572 @@
+{
+  "seed": 3407,
+  "team_commit": "1c4d7b32ab254d8444b401b06750dfb6e2bfca9e",
+  "student_predictions_sha256": "a2336c6a92acbb190ae6c1a40085c97db942158ea107ae1db5469451c3734e39",
+  "baseline_judgments_sha256": "f1ff9fb18fb2949f1e64dd53df5d2a8b37d38e21258aaf2b9a70d2bb8dff0fba",
+  "remaining_sha256": "e4a2e91a2d11e9a1d987514b00c2653bf1549ad85b3440dad46faf66970c88ed",
+  "seokmin_commit": "b5bd7c706208de056174719746511ef27588ff1f",
+  "targets": [
+    {
+      "id": "validation_Accounting_22",
+      "group": "diagnostic_length",
+      "original_image_paths": [
+        "/home/user/mmdl/MMDL-official-vllm/data/local_validation/images/validation_Accounting_22_1.png"
+      ]
+    },
+    {
+      "id": "validation_Accounting_28",
+      "group": "diagnostic_length",
+      "original_image_paths": [
+        "/home/user/mmdl/MMDL-official-vllm/data/local_validation/images/validation_Accounting_28_1.png"
+      ]
+    },
+    {
+      "id": "validation_Architecture_and_Engineering_13",
+      "group": "diagnostic_length",
+      "original_image_paths": [
+        "/home/user/mmdl/MMDL-official-vllm/data/local_validation/images/validation_Architecture_and_Engineering_13_1.png"
+      ]
+    },
+    {
+      "id": "validation_Architecture_and_Engineering_17",
+      "group": "diagnostic_length",
+      "original_image_paths": [
+        "/home/user/mmdl/MMDL-official-vllm/data/local_validation/images/validation_Architecture_and_Engineering_17_1.png"
+      ]
+    },
+    {
+      "id": "validation_Architecture_and_Engineering_18",
+      "group": "diagnostic_length",
+      "original_image_paths": [
+        "/home/user/mmdl/MMDL-official-vllm/data/local_validation/images/validation_Architecture_and_Engineering_18_1.png"
+      ]
+    },
+    {
+      "id": "validation_Architecture_and_Engineering_22",
+      "group": "diagnostic_length",
+      "original_image_paths": [
+        "/home/user/mmdl/MMDL-official-vllm/data/local_validation/images/validation_Architecture_and_Engineering_22_1.png"
+      ]
+    },
+    {
+      "id": "validation_Architecture_and_Engineering_26",
+      "group": "diagnostic_length",
+      "original_image_paths": [
+        "/home/user/mmdl/MMDL-official-vllm/data/local_validation/images/validation_Architecture_and_Engineering_26_1.png"
+      ]
+    },
+    {
+      "id": "validation_Architecture_and_Engineering_9",
+      "group": "diagnostic_length",
+      "original_image_paths": [
+        "/home/user/mmdl/MMDL-official-vllm/data/local_validation/images/validation_Architecture_and_Engineering_9_1.png"
+      ]
+    },
+    {
+      "id": "validation_Computer_Science_12",
+      "group": "diagnostic_length",
+      "original_image_paths": [
+        "/home/user/mmdl/MMDL-official-vllm/data/local_validation/images/validation_Computer_Science_12_1.png"
+      ]
+    },
+    {
+      "id": "validation_Electronics_14",
+      "group": "diagnostic_length",
+      "original_image_paths": [
+        "/home/user/mmdl/MMDL-official-vllm/data/local_validation/images/validation_Electronics_14_1.png"
+      ]
+    },
+    {
+      "id": "validation_Electronics_17",
+      "group": "diagnostic_length",
+      "original_image_paths": [
+        "/home/user/mmdl/MMDL-official-vllm/data/local_validation/images/validation_Electronics_17_1.png"
+      ]
+    },
+    {
+      "id": "validation_Electronics_28",
+      "group": "diagnostic_length",
+      "original_image_paths": [
+        "/home/user/mmdl/MMDL-official-vllm/data/local_validation/images/validation_Electronics_28_1.png"
+      ]
+    },
+    {
+      "id": "validation_Electronics_7",
+      "group": "diagnostic_length",
+      "original_image_paths": [
+        "/home/user/mmdl/MMDL-official-vllm/data/local_validation/images/validation_Electronics_7_1.png"
+      ]
+    },
+    {
+      "id": "validation_Electronics_9",
+      "group": "diagnostic_length",
+      "original_image_paths": [
+        "/home/user/mmdl/MMDL-official-vllm/data/local_validation/images/validation_Electronics_9_1.png"
+      ]
+    },
+    {
+      "id": "validation_Energy_and_Power_1",
+      "group": "diagnostic_length",
+      "original_image_paths": [
+        "/home/user/mmdl/MMDL-official-vllm/data/local_validation/images/validation_Energy_and_Power_1_1.png"
+      ]
+    },
+    {
+      "id": "validation_Energy_and_Power_12",
+      "group": "diagnostic_length",
+      "original_image_paths": [
+        "/home/user/mmdl/MMDL-official-vllm/data/local_validation/images/validation_Energy_and_Power_12_1.png"
+      ]
+    },
+    {
+      "id": "validation_Energy_and_Power_13",
+      "group": "diagnostic_length",
+      "original_image_paths": [
+        "/home/user/mmdl/MMDL-official-vllm/data/local_validation/images/validation_Energy_and_Power_13_1.png"
+      ]
+    },
+    {
+      "id": "validation_Energy_and_Power_14",
+      "group": "diagnostic_length",
+      "original_image_paths": [
+        "/home/user/mmdl/MMDL-official-vllm/data/local_validation/images/validation_Energy_and_Power_14_1.png"
+      ]
+    },
+    {
+      "id": "validation_Energy_and_Power_17",
+      "group": "diagnostic_length",
+      "original_image_paths": [
+        "/home/user/mmdl/MMDL-official-vllm/data/local_validation/images/validation_Energy_and_Power_17_1.png"
+      ]
+    },
+    {
+      "id": "validation_Energy_and_Power_22",
+      "group": "diagnostic_length",
+      "original_image_paths": [
+        "/home/user/mmdl/MMDL-official-vllm/data/local_validation/images/validation_Energy_and_Power_22_1.png"
+      ]
+    },
+    {
+      "id": "validation_Energy_and_Power_4",
+      "group": "diagnostic_length",
+      "original_image_paths": [
+        "/home/user/mmdl/MMDL-official-vllm/data/local_validation/images/validation_Energy_and_Power_4_1.png"
+      ]
+    },
+    {
+      "id": "validation_Energy_and_Power_8",
+      "group": "diagnostic_length",
+      "original_image_paths": [
+        "/home/user/mmdl/MMDL-official-vllm/data/local_validation/images/validation_Energy_and_Power_8_1.png"
+      ]
+    },
+    {
+      "id": "validation_Energy_and_Power_9",
+      "group": "diagnostic_length",
+      "original_image_paths": [
+        "/home/user/mmdl/MMDL-official-vllm/data/local_validation/images/validation_Energy_and_Power_9_1.png"
+      ]
+    },
+    {
+      "id": "validation_Marketing_23",
+      "group": "diagnostic_length",
+      "original_image_paths": [
+        "/home/user/mmdl/MMDL-official-vllm/data/local_validation/images/validation_Marketing_23_1.png"
+      ]
+    },
+    {
+      "id": "validation_Materials_20",
+      "group": "diagnostic_length",
+      "original_image_paths": [
+        "/home/user/mmdl/MMDL-official-vllm/data/local_validation/images/validation_Materials_20_1.png"
+      ]
+    },
+    {
+      "id": "validation_Materials_22",
+      "group": "diagnostic_length",
+      "original_image_paths": [
+        "/home/user/mmdl/MMDL-official-vllm/data/local_validation/images/validation_Materials_22_1.png"
+      ]
+    },
+    {
+      "id": "validation_Materials_4",
+      "group": "diagnostic_length",
+      "original_image_paths": [
+        "/home/user/mmdl/MMDL-official-vllm/data/local_validation/images/validation_Materials_4_1.png"
+      ]
+    },
+    {
+      "id": "validation_Materials_5",
+      "group": "diagnostic_length",
+      "original_image_paths": [
+        "/home/user/mmdl/MMDL-official-vllm/data/local_validation/images/validation_Materials_5_1.png"
+      ]
+    },
+    {
+      "id": "validation_Materials_6",
+      "group": "diagnostic_length",
+      "original_image_paths": [
+        "/home/user/mmdl/MMDL-official-vllm/data/local_validation/images/validation_Materials_6_1.png"
+      ]
+    },
+    {
+      "id": "validation_Materials_9",
+      "group": "diagnostic_length",
+      "original_image_paths": [
+        "/home/user/mmdl/MMDL-official-vllm/data/local_validation/images/validation_Materials_9_1.png"
+      ]
+    },
+    {
+      "id": "validation_Math_16",
+      "group": "diagnostic_length",
+      "original_image_paths": [
+        "/home/user/mmdl/MMDL-official-vllm/data/local_validation/images/validation_Math_16_1.png"
+      ]
+    },
+    {
+      "id": "validation_Mechanical_Engineering_27",
+      "group": "diagnostic_length",
+      "original_image_paths": [
+        "/home/user/mmdl/MMDL-official-vllm/data/local_validation/images/validation_Mechanical_Engineering_27_1.png"
+      ]
+    },
+    {
+      "id": "validation_Mechanical_Engineering_28",
+      "group": "diagnostic_length",
+      "original_image_paths": [
+        "/home/user/mmdl/MMDL-official-vllm/data/local_validation/images/validation_Mechanical_Engineering_28_1.png"
+      ]
+    },
+    {
+      "id": "validation_Mechanical_Engineering_4",
+      "group": "diagnostic_length",
+      "original_image_paths": [
+        "/home/user/mmdl/MMDL-official-vllm/data/local_validation/images/validation_Mechanical_Engineering_4_1.png"
+      ]
+    },
+    {
+      "id": "validation_Mechanical_Engineering_8",
+      "group": "diagnostic_length",
+      "original_image_paths": [
+        "/home/user/mmdl/MMDL-official-vllm/data/local_validation/images/validation_Mechanical_Engineering_8_1.png"
+      ]
+    },
+    {
+      "id": "validation_Music_14",
+      "group": "diagnostic_length",
+      "original_image_paths": [
+        "/home/user/mmdl/MMDL-official-vllm/data/local_validation/images/validation_Music_14_1.png"
+      ]
+    },
+    {
+      "id": "validation_Music_23",
+      "group": "diagnostic_length",
+      "original_image_paths": [
+        "/home/user/mmdl/MMDL-official-vllm/data/local_validation/images/validation_Music_23_1.png",
+        "/home/user/mmdl/MMDL-official-vllm/data/local_validation/images/validation_Music_23_2.png"
+      ]
+    },
+    {
+      "id": "validation_Music_25",
+      "group": "diagnostic_length",
+      "original_image_paths": [
+        "/home/user/mmdl/MMDL-official-vllm/data/local_validation/images/validation_Music_25_1.png"
+      ]
+    },
+    {
+      "id": "validation_Music_27",
+      "group": "diagnostic_length",
+      "original_image_paths": [
+        "/home/user/mmdl/MMDL-official-vllm/data/local_validation/images/validation_Music_27_1.png"
+      ]
+    },
+    {
+      "id": "validation_Physics_18",
+      "group": "diagnostic_length",
+      "original_image_paths": [
+        "/home/user/mmdl/MMDL-official-vllm/data/local_validation/images/validation_Physics_18_1.png"
+      ]
+    },
+    {
+      "id": "validation_Art_25",
+      "group": "normal_correct",
+      "original_image_paths": [
+        "/home/user/mmdl/MMDL-official-vllm/data/local_validation/images/validation_Art_25_1.png"
+      ]
+    },
+    {
+      "id": "validation_Mechanical_Engineering_19",
+      "group": "normal_correct",
+      "original_image_paths": [
+        "/home/user/mmdl/MMDL-official-vllm/data/local_validation/images/validation_Mechanical_Engineering_19_1.png",
+        "/home/user/mmdl/MMDL-official-vllm/data/local_validation/images/validation_Mechanical_Engineering_19_2.png"
+      ]
+    },
+    {
+      "id": "validation_Biology_8",
+      "group": "normal_correct",
+      "original_image_paths": [
+        "/home/user/mmdl/MMDL-official-vllm/data/local_validation/images/validation_Biology_8_1.png"
+      ]
+    },
+    {
+      "id": "validation_Literature_27",
+      "group": "normal_correct",
+      "original_image_paths": [
+        "/home/user/mmdl/MMDL-official-vllm/data/local_validation/images/validation_Literature_27_1.png"
+      ]
+    },
+    {
+      "id": "validation_Economics_16",
+      "group": "normal_correct",
+      "original_image_paths": [
+        "/home/user/mmdl/MMDL-official-vllm/data/local_validation/images/validation_Economics_16_1.png"
+      ]
+    },
+    {
+      "id": "validation_Math_15",
+      "group": "normal_correct",
+      "original_image_paths": [
+        "/home/user/mmdl/MMDL-official-vllm/data/local_validation/images/validation_Math_15_1.png"
+      ]
+    },
+    {
+      "id": "validation_History_21",
+      "group": "normal_correct",
+      "original_image_paths": [
+        "/home/user/mmdl/MMDL-official-vllm/data/local_validation/images/validation_History_21_1.png"
+      ]
+    },
+    {
+      "id": "validation_Manage_29",
+      "group": "normal_correct",
+      "original_image_paths": [
+        "/home/user/mmdl/MMDL-official-vllm/data/local_validation/images/validation_Manage_29_1.png"
+      ]
+    },
+    {
+      "id": "validation_Electronics_8",
+      "group": "normal_correct",
+      "original_image_paths": [
+        "/home/user/mmdl/MMDL-official-vllm/data/local_validation/images/validation_Electronics_8_1.png"
+      ]
+    },
+    {
+      "id": "validation_Physics_30",
+      "group": "normal_correct",
+      "original_image_paths": [
+        "/home/user/mmdl/MMDL-official-vllm/data/local_validation/images/validation_Physics_30_1.png"
+      ]
+    },
+    {
+      "id": "validation_Public_Health_26",
+      "group": "normal_correct",
+      "original_image_paths": [
+        "/home/user/mmdl/MMDL-official-vllm/data/local_validation/images/validation_Public_Health_26_1.png"
+      ]
+    },
+    {
+      "id": "validation_Math_21",
+      "group": "normal_correct",
+      "original_image_paths": [
+        "/home/user/mmdl/MMDL-official-vllm/data/local_validation/images/validation_Math_21_1.png"
+      ]
+    },
+    {
+      "id": "validation_Finance_13",
+      "group": "normal_correct",
+      "original_image_paths": [
+        "/home/user/mmdl/MMDL-official-vllm/data/local_validation/images/validation_Finance_13_1.png"
+      ]
+    },
+    {
+      "id": "validation_Finance_28",
+      "group": "normal_correct",
+      "original_image_paths": [
+        "/home/user/mmdl/MMDL-official-vllm/data/local_validation/images/validation_Finance_28_1.png"
+      ]
+    },
+    {
+      "id": "validation_Economics_24",
+      "group": "normal_correct",
+      "original_image_paths": [
+        "/home/user/mmdl/MMDL-official-vllm/data/local_validation/images/validation_Economics_24_1.png"
+      ]
+    },
+    {
+      "id": "validation_Basic_Medical_Science_30",
+      "group": "normal_correct",
+      "original_image_paths": [
+        "/home/user/mmdl/MMDL-official-vllm/data/local_validation/images/validation_Basic_Medical_Science_30_1.png"
+      ]
+    },
+    {
+      "id": "validation_History_19",
+      "group": "normal_correct",
+      "original_image_paths": [
+        "/home/user/mmdl/MMDL-official-vllm/data/local_validation/images/validation_History_19_1.png"
+      ]
+    },
+    {
+      "id": "validation_Design_3",
+      "group": "normal_correct",
+      "original_image_paths": [
+        "/home/user/mmdl/MMDL-official-vllm/data/local_validation/images/validation_Design_3_1.png"
+      ]
+    },
+    {
+      "id": "validation_Literature_11",
+      "group": "normal_correct",
+      "original_image_paths": [
+        "/home/user/mmdl/MMDL-official-vllm/data/local_validation/images/validation_Literature_11_1.png"
+      ]
+    },
+    {
+      "id": "validation_Basic_Medical_Science_8",
+      "group": "normal_correct",
+      "original_image_paths": [
+        "/home/user/mmdl/MMDL-official-vllm/data/local_validation/images/validation_Basic_Medical_Science_8_1.png"
+      ]
+    },
+    {
+      "id": "validation_Art_Theory_3",
+      "group": "normal_incorrect",
+      "original_image_paths": [
+        "/home/user/mmdl/MMDL-official-vllm/data/local_validation/images/validation_Art_Theory_3_1.png"
+      ]
+    },
+    {
+      "id": "validation_History_25",
+      "group": "normal_incorrect",
+      "original_image_paths": [
+        "/home/user/mmdl/MMDL-official-vllm/data/local_validation/images/validation_History_25_1.png"
+      ]
+    },
+    {
+      "id": "validation_Manage_27",
+      "group": "normal_incorrect",
+      "original_image_paths": [
+        "/home/user/mmdl/MMDL-official-vllm/data/local_validation/images/validation_Manage_27_1.png"
+      ]
+    },
+    {
+      "id": "validation_Chemistry_3",
+      "group": "normal_incorrect",
+      "original_image_paths": [
+        "/home/user/mmdl/MMDL-official-vllm/data/local_validation/images/validation_Chemistry_3_1.png"
+      ]
+    },
+    {
+      "id": "validation_Design_12",
+      "group": "normal_incorrect",
+      "original_image_paths": [
+        "/home/user/mmdl/MMDL-official-vllm/data/local_validation/images/validation_Design_12_1.png"
+      ]
+    },
+    {
+      "id": "validation_Agriculture_17",
+      "group": "normal_incorrect",
+      "original_image_paths": [
+        "/home/user/mmdl/MMDL-official-vllm/data/local_validation/images/validation_Agriculture_17_1.png"
+      ]
+    },
+    {
+      "id": "validation_Art_Theory_14",
+      "group": "normal_incorrect",
+      "original_image_paths": [
+        "/home/user/mmdl/MMDL-official-vllm/data/local_validation/images/validation_Art_Theory_14_1.png"
+      ]
+    },
+    {
+      "id": "validation_Clinical_Medicine_28",
+      "group": "normal_incorrect",
+      "original_image_paths": [
+        "/home/user/mmdl/MMDL-official-vllm/data/local_validation/images/validation_Clinical_Medicine_28_1.png"
+      ]
+    },
+    {
+      "id": "validation_Psychology_5",
+      "group": "normal_incorrect",
+      "original_image_paths": [
+        "/home/user/mmdl/MMDL-official-vllm/data/local_validation/images/validation_Psychology_5_1.png"
+      ]
+    },
+    {
+      "id": "validation_Geography_27",
+      "group": "normal_incorrect",
+      "original_image_paths": [
+        "/home/user/mmdl/MMDL-official-vllm/data/local_validation/images/validation_Geography_27_1.png"
+      ]
+    },
+    {
+      "id": "validation_Agriculture_27",
+      "group": "normal_incorrect",
+      "original_image_paths": [
+        "/home/user/mmdl/MMDL-official-vllm/data/local_validation/images/validation_Agriculture_27_1.png"
+      ]
+    },
+    {
+      "id": "validation_Agriculture_15",
+      "group": "normal_incorrect",
+      "original_image_paths": [
+        "/home/user/mmdl/MMDL-official-vllm/data/local_validation/images/validation_Agriculture_15_1.png"
+      ]
+    },
+    {
+      "id": "validation_Mechanical_Engineering_7",
+      "group": "normal_incorrect",
+      "original_image_paths": [
+        "/home/user/mmdl/MMDL-official-vllm/data/local_validation/images/validation_Mechanical_Engineering_7_1.png"
+      ]
+    },
+    {
+      "id": "validation_Biology_17",
+      "group": "normal_incorrect",
+      "original_image_paths": [
+        "/home/user/mmdl/MMDL-official-vllm/data/local_validation/images/validation_Biology_17_1.png"
+      ]
+    },
+    {
+      "id": "validation_Physics_7",
+      "group": "normal_incorrect",
+      "original_image_paths": [
+        "/home/user/mmdl/MMDL-official-vllm/data/local_validation/images/validation_Physics_7_1.png"
+      ]
+    },
+    {
+      "id": "validation_Psychology_9",
+      "group": "normal_incorrect",
+      "original_image_paths": [
+        "/home/user/mmdl/MMDL-official-vllm/data/local_validation/images/validation_Psychology_9_1.png"
+      ]
+    },
+    {
+      "id": "validation_Geography_30",
+      "group": "normal_incorrect",
+      "original_image_paths": [
+        "/home/user/mmdl/MMDL-official-vllm/data/local_validation/images/validation_Geography_30_1.png"
+      ]
+    },
+    {
+      "id": "validation_Chemistry_8",
+      "group": "normal_incorrect",
+      "original_image_paths": [
+        "/home/user/mmdl/MMDL-official-vllm/data/local_validation/images/validation_Chemistry_8_1.png"
+      ]
+    },
+    {
+      "id": "validation_Electronics_4",
+      "group": "normal_incorrect",
+      "original_image_paths": [
+        "/home/user/mmdl/MMDL-official-vllm/data/local_validation/images/validation_Electronics_4_1.png"
+      ]
+    },
+    {
+      "id": "validation_Geography_23",
+      "group": "normal_incorrect",
+      "original_image_paths": [
+        "/home/user/mmdl/MMDL-official-vllm/data/local_validation/images/validation_Geography_23_1.png"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,295 @@
+{
+  "original_contract": "7dd9ef1ee04913ec9a1fcbfbc7a55d9f46586a71ea38585d9f9c55fe7d021231",
+  "source_generations_sha256": "1f762aa8a31b1c2af739cb804cc42e686a1cb7a67c6fc827cd879e1ee8cfea7f",
+  "source_judgments_sha256": "0c1216ed02634fe707a69da929d0d69cc17d6ee215763fecca5c253db69c800c",
+  "targets": [
+    "validation_Accounting_22",
+    "validation_Accounting_28",
+    "validation_Architecture_and_Engineering_13",
+    "validation_Architecture_and_Engineering_17",
+    "validation_Architecture_and_Engineering_18",
+    "validation_Architecture_and_Engineering_22",
+    "validation_Architecture_and_Engineering_26",
+    "validation_Architecture_and_Engineering_9",
+    "validation_Computer_Science_12",
+    "validation_Electronics_14",
+    "validation_Electronics_17",
+    "validation_Electronics_28",
+    "validation_Electronics_7",
+    "validation_Electronics_9",
+    "validation_Energy_and_Power_1",
+    "validation_Energy_and_Power_12",
+    "validation_Energy_and_Power_13",
+    "validation_Energy_and_Power_14",
+    "validation_Energy_and_Power_17",
+    "validation_Energy_and_Power_22",
+    "validation_Energy_and_Power_4",
+    "validation_Energy_and_Power_8",
+    "validation_Energy_and_Power_9",
+    "validation_Marketing_23",
+    "validation_Materials_20",
+    "validation_Materials_22",
+    "validation_Materials_4",
+    "validation_Materials_5",
+    "validation_Materials_6",
+    "validation_Materials_9",
+    "validation_Math_16",
+    "validation_Mechanical_Engineering_27",
+    "validation_Mechanical_Engineering_28",
+    "validation_Mechanical_Engineering_4",
+    "validation_Mechanical_Engineering_8",
+    "validation_Music_14",
+    "validation_Music_23",
+    "validation_Music_25",
+    "validation_Music_27",
+    "validation_Physics_18"
+  ],
+  "exempt_terms": [
+    "anyone",
+    "button",
+    "company",
+    "know",
+    "knowledge",
+    "mother",
+    "ohio"
+  ],
+  "removed_tokens": [
+    {
+      "id": 1414,
+      "decoded": " know",
+      "keywords": [
+        "now"
+      ]
+    },
+    {
+      "id": 1567,
+      "decoded": "Button",
+      "keywords": [
+        "but"
+      ]
+    },
+    {
+      "id": 2159,
+      "decoded": "button",
+      "keywords": [
+        "but"
+      ]
+    },
+    {
+      "id": 2813,
+      "decoded": " company",
+      "keywords": [
+        "any"
+      ]
+    },
+    {
+      "id": 3137,
+      "decoded": " button",
+      "keywords": [
+        "but"
+      ]
+    },
+    {
+      "id": 5489,
+      "decoded": " anyone",
+      "keywords": [
+        "any"
+      ]
+    },
+    {
+      "id": 6540,
+      "decoded": " knowledge",
+      "keywords": [
+        "now"
+      ]
+    },
+    {
+      "id": 6554,
+      "decoded": " mother",
+      "keywords": [
+        "other"
+      ]
+    },
+    {
+      "id": 6601,
+      "decoded": " Button",
+      "keywords": [
+        "but"
+      ]
+    },
+    {
+      "id": 8188,
+      "decoded": " Company",
+      "keywords": [
+        "any"
+      ]
+    },
+    {
+      "id": 10139,
+      "decoded": "company",
+      "keywords": [
+        "any"
+      ]
+    },
+    {
+      "id": 14187,
+      "decoded": " Know",
+      "keywords": [
+        "now"
+      ]
+    },
+    {
+      "id": 14352,
+      "decoded": " Ohio",
+      "keywords": [
+        "oh"
+      ]
+    },
+    {
+      "id": 14491,
+      "decoded": "Company",
+      "keywords": [
+        "any"
+      ]
+    },
+    {
+      "id": 21043,
+      "decoded": " Mother",
+      "keywords": [
+        "other"
+      ]
+    },
+    {
+      "id": 26412,
+      "decoded": "mother",
+      "keywords": [
+        "other"
+      ]
+    },
+    {
+      "id": 31925,
+      "decoded": " Knowledge",
+      "keywords": [
+        "now"
+      ]
+    },
+    {
+      "id": 32034,
+      "decoded": "know",
+      "keywords": [
+        "now"
+      ]
+    },
+    {
+      "id": 32534,
+      "decoded": " Anyone",
+      "keywords": [
+        "any"
+      ]
+    },
+    {
+      "id": 37359,
+      "decoded": "\tbutton",
+      "keywords": [
+        "but"
+      ]
+    },
+    {
+      "id": 38412,
+      "decoded": "Know",
+      "keywords": [
+        "now"
+      ]
+    },
+    {
+      "id": 38450,
+      "decoded": "BUTTON",
+      "keywords": [
+        "but"
+      ]
+    },
+    {
+      "id": 40695,
+      "decoded": "Anyone",
+      "keywords": [
+        "any"
+      ]
+    },
+    {
+      "id": 41389,
+      "decoded": " BUTTON",
+      "keywords": [
+        "but"
+      ]
+    },
+    {
+      "id": 58027,
+      "decoded": " KNOW",
+      "keywords": [
+        "now"
+      ]
+    },
+    {
+      "id": 58878,
+      "decoded": "Mother",
+      "keywords": [
+        "other"
+      ]
+    },
+    {
+      "id": 65117,
+      "decoded": "Ohio",
+      "keywords": [
+        "oh"
+      ]
+    },
+    {
+      "id": 65448,
+      "decoded": " COMPANY",
+      "keywords": [
+        "any"
+      ]
+    },
+    {
+      "id": 70352,
+      "decoded": "\tButton",
+      "keywords": [
+        "but"
+      ]
+    },
+    {
+      "id": 80334,
+      "decoded": "Knowledge",
+      "keywords": [
+        "now"
+      ]
+    },
+    {
+      "id": 89053,
+      "decoded": "knowledge",
+      "keywords": [
+        "now"
+      ]
+    },
+    {
+      "id": 95885,
+      "decoded": " ohio",
+      "keywords": [
+        "oh"
+      ]
+    }
+  ],
+  "mask_sizes": {
+    "refined_mask": 886,
+    "answer_switch": 918
+  },
+  "mask_hashes": {
+    "refined_mask": "2e91bd329d2825026adae123f147d75d417c6bf8c6220e1a9137f6aef1445294",
+    "answer_switch": "815552d5f96d397079edc4d701858d4c36ea914fdb0eb5ae8c484466a5c51836"
+  },
+  "switch_at": 4096,
+  "answer_budget": 128,
+  "cue": "<|im_end|>\n<|im_start|>user\nUsing the question, choices, and work above, give your best final answer now. Output only the letter of one of the given options.<|im_end|>\n<|im_start|>assistant\n",
+  "scoring": "original NoWait judge and terminal rules, applied to answer turn when switched",
+  "code_sha256": "1940ed230a26e85a70b735d2e074496ea485554cb04272cf31077ffaad4c4903"
+}

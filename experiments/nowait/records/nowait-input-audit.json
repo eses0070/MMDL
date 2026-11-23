@@ -1,0 +1,91 @@
+{
+  "dataset": {
+    "path": "/home/gpu/projects/mmdl-lookback.0XCHOF/image_manifest.json",
+    "sha256": "df0c951217114190b5cacef28a81e70746d02f8ba9549f956a4baf71ef51a6e2",
+    "dataset": "MMMU/MMMU",
+    "revision": "876ce5cb130f7f7e290ce4d9984357737d4db5cf",
+    "historical_image_equivalence": "unverified"
+  },
+  "pair_checks": {
+    "ordered_image_sha256": 40,
+    "prompt_token_sha256": 40,
+    "messages_sha256": 40,
+    "request_sampling": 40
+  },
+  "pairs": 40,
+  "old_b0_input_count_equal": 40,
+  "historical_b0_tokens": 327680,
+  "regenerated_baseline_tokens": 256173,
+  "nowait_tokens": 245360,
+  "nowait_pending_ids": [
+    "validation_Architecture_and_Engineering_26",
+    "validation_Materials_9"
+  ],
+  "nowait_correct_rows": [
+    {
+      "question_id": "validation_Architecture_and_Engineering_18",
+      "gold": "B",
+      "prediction": "B",
+      "old_b0_tokens": 8192,
+      "regenerated_baseline_tokens": 8192,
+      "nowait_tokens": 6809
+    },
+    {
+      "question_id": "validation_Electronics_14",
+      "gold": "C",
+      "prediction": "C",
+      "old_b0_tokens": 8192,
+      "regenerated_baseline_tokens": 8192,
+      "nowait_tokens": 4454
+    },
+    {
+      "question_id": "validation_Energy_and_Power_17",
+      "gold": "A",
+      "prediction": "A",
+      "old_b0_tokens": 8192,
+      "regenerated_baseline_tokens": 7288,
+      "nowait_tokens": 3877
+    },
+    {
+      "question_id": "validation_Marketing_23",
+      "gold": "C",
+      "prediction": "C",
+      "old_b0_tokens": 8192,
+      "regenerated_baseline_tokens": 3913,
+      "nowait_tokens": 1821
+    },
+    {
+      "question_id": "validation_Materials_5",
+      "gold": "B",
+      "prediction": "B",
+      "old_b0_tokens": 8192,
+      "regenerated_baseline_tokens": 1162,
+      "nowait_tokens": 1090
+    },
+    {
+      "question_id": "validation_Mechanical_Engineering_8",
+      "gold": "B",
+      "prediction": "B",
+      "old_b0_tokens": 8192,
+      "regenerated_baseline_tokens": 6272,
+      "nowait_tokens": 3163
+    },
+    {
+      "question_id": "validation_Music_25",
+      "gold": "B",
+      "prediction": "B",
+      "old_b0_tokens": 8192,
+      "regenerated_baseline_tokens": 1920,
+      "nowait_tokens": 1033
+    },
+    {
+      "question_id": "validation_Physics_18",
+      "gold": "A",
+      "prediction": "A",
+      "old_b0_tokens": 8192,
+      "regenerated_baseline_tokens": 4362,
+      "nowait_tokens": 2748
+    }
+  ],
+  "archived_no_wait_summary_sha256": "0df213184831a1af6d0f8804492eefad7f84c47f73091c2fb770acbc3d56cd8b"
+}

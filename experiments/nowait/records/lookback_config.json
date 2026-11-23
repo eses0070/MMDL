@@ -1,0 +1,126 @@
+{
+  "input_sha256": "d9af466100806a86051d32ec98ddfd0f31a4d41e6b10ffee982f5865006ba4bd",
+  "upstream_qwen_commit": "96588727e44c78b25ba03ea03b8e12f7e64fd0da",
+  "model_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+  "model_files_sha256": {
+    ".gitattributes": "11ad7efa24975ee4b0c3c3a38ed18737f0658a5f75a0a96787b576a78a023361",
+    "README.md": "a884e5e78f7d6f7bfe237f909dbc41a126542e259dc79d8ab33cc8980580ff79",
+    "chat_template.json": "6f8a6a55027e3da5160105556cda5dd69f6423f1c32645f6730d32de7773d0c4",
+    "config.json": "edac7703329133edfc53e46ac0081835144c99d7eebf28b71c732694d435224d",
+    "generation_config.json": "8469742d1fce0de951c8909b26a2c0c0d8490837ce476efb114da9e0cefc4d44",
+    "merges.txt": "599bab54075088774b1733fde865d5bd747cbcc7a547c5bc12610e874e26f5e3",
+    "model-00001-of-00002.safetensors": "30a01a0556622645a3cce87b655bbbbbc1f170c196099f1b666c93202c3339a9",
+    "model-00002-of-00002.safetensors": "046296a2a387efb43b0c997d5833c789604d168834f6e0d3064bf7bb13d002a6",
+    "model.safetensors.index.json": "58a7841d7bff2548dd91577d216274a83cf1b500bc6a534b809d6c1b1707cf2b",
+    "preprocessor_config.json": "27225450ac9c6529872ee1924fcb0962ff5634834f817040f444118116f4e516",
+    "tokenizer.json": "a5d85b6dcc535e6b93115a9ef287e6132fdbf30270da6218194ba742261173c7",
+    "tokenizer_config.json": "c2da771801886ad9ae98181793ffd3dfb7f1af30f6f7c6a4e15d7dbba52e2399",
+    "video_preprocessor_config.json": "7768af27c1fafa9cc9011c1dc20067e03f8915e03b63504550e11d5066986d13",
+    "vocab.json": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910"
+  },
+  "engine": {
+    "model": "/home/gpu/projects/mmdl-b0.UjOD9U/hf/hub/models--Qwen--Qwen3-VL-4B-Instruct/snapshots/ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "seed": 3407,
+    "tensor_parallel_size": 1,
+    "gpu_memory_utilization": 0.9,
+    "max_model_len": 16384,
+    "limit_mm_per_prompt": {
+      "image": 10
+    },
+    "trust_remote_code": true,
+    "max_num_seqs": 1,
+    "enable_prefix_caching": true
+  },
+  "environment": {
+    "vllm": "0.11.2",
+    "torch": "2.9.0",
+    "transformers": "4.57.1",
+    "qwen-vl-utils": "0.0.14",
+    "pillow": "13.0.0"
+  },
+  "generation": {
+    "seed": 3407,
+    "min_pixels": 1003520,
+    "max_pixels": 4014080,
+    "temperature": 0.7,
+    "top_p": 0.8,
+    "top_k": 20,
+    "repetition_penalty": 1.0,
+    "presence_penalty": 1.5,
+    "max_tokens": 8192
+  },
+  "repetition_policy": {
+    "version": 1,
+    "min_tokens": 1024,
+    "check_every_tokens": 128,
+    "window_words": 600,
+    "phrase_words": 32,
+    "min_occurrences": 4,
+    "min_coverage": 0.2,
+    "tail_words": 80,
+    "confirmations": 2
+  },
+  "prefix_cache_scope": "isolated by question and condition; reused within a continuation",
+  "scoring": {
+    "mc": "parser_v2 deterministic final line, no cached proposal",
+    "open": "official MMMU open parser/scorer on last nonempty line",
+    "incomplete": "unextracted",
+    "commit": "b5bd7c706208de056174719746511ef27588ff1f",
+    "official_mmmu_commit": "b26bdefc7e5e007962fde8f93b2bb53c99c8d13d"
+  },
+  "lookback": {
+    "window": 50,
+    "max_lookbacks": 5,
+    "cooldown": "generated tokens > 50",
+    "pause_phrases": [
+      "wait let me",
+      "I need to",
+      "let me check",
+      "I should verify",
+      "hmm I see",
+      "looking at this",
+      "re-examining the",
+      "I need to reconsider",
+      "let me think",
+      "hold on"
+    ],
+    "insertion_phrases": [
+      "Looking back at the image",
+      "Let me re-examine the",
+      "Returning to the diagram",
+      "Checking the figure again",
+      "Looking at the visual",
+      "Re-reading the image",
+      "Let me look at this more carefully",
+      "Going back to the picture",
+      "Examining the image closely",
+      "Let me verify from the image"
+    ],
+    "answer_phrases": [
+      "Therefore,",
+      "The answer is",
+      "Final answer:"
+    ],
+    "matching": "casefolded substring",
+    "phrase_rng_seed": 3408,
+    "phrase_rng_scope": "per question",
+    "total_budget": 8192
+  },
+  "code_sha256": {
+    "code/MMDL-official-vllm/lookback.py": "ea16919b9985eaa1ec8ca9c9583c45a843df2335d81a3c654fe74f5b77fbbab6",
+    "code/MMDL-official-vllm/lookback_pilot.py": "cd72ec49d3593462d9ad36fdb94f9bdc387ff0337534c994fc24d547330f1fdb",
+    "code/MMDL-official-vllm/run.py": "bf86e27da4019b0f2b547296040ec9445fc8a69999c97a377e7f620b6b51bca8",
+    "code/MMDL-official-vllm/streaming_guard.py": "d02ff775b39006d9038099b57ce6a236befd4cee084a901e79e77588044e1618",
+    "code/MMDL-official-vllm/repetition_guard.py": "1e244e7a33cd0f5307e4e5eef736a6290733433fba2172f4d89e0b5c5278751c",
+    "code/MMDL-official-vllm/checkpointing.py": "92ed08d59074846ae2490e7c8dee6b5d33af38364ca1d2767a46cb0f68ba1a47",
+    "code/MMDL-official-vllm/upstream/evaluation/mmmu/eval_utils.py": "72a1773c3d22fe589299670cdcd523da9e4cb95f129880c5c3a3414597a075bf",
+    "code/MMDL-official-vllm/upstream/evaluation/mmmu/dataset_utils.py": "5c766669b71e443c3d7b8aae229d8dae11098034f30b63f07ee5cc7c4dca6413",
+    "code/MMDL-official-vllm/upstream/evaluation/mmmu/common_utils.py": "8674aa035e8440d58fd4deec37fc7d8c441dbf2b4453aa24b2cf6f6a849c1cb5",
+    "code/MMDL-official-vllm/upstream/evaluation/mmmu/run_mmmu.py": "f9e4a6c1b8d2ad1709fb08dd46102e5f6e3423ada14df8df987743cf71b8eba0",
+    "scoring/mc_parser.py": "6dffac84a3ac33ebda9cf626e77dc402cab4a22c9b9d7a943044a5b89c09ed44",
+    "scoring/mmmu_open.py": "cc1a89b4a27f697702d340bc6a7578b5237135754ddaa9ef105239a3d9847367",
+    "scoring/frozen/numeric_rules.py": "5d06cffb56ab97e25592bf8e7bd7969c2eb6a95bc421f9911367a0bad580fd75",
+    "scoring/frozen/terminal_format.py": "dda9bd05f41a594589fe2cf4dde553cc8cf47225178d8bd172e88c9f9196cd2b",
+    "scoring/frozen/answer_parser.py": "a2bfd7b670d7009d9dc0184bcc1e9c31260d369fe1b47e9f6cd9c1f47db5c190"
+  }
+}

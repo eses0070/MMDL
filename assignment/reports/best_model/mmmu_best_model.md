@@ -33,7 +33,7 @@ NoWait은 생성 중 `wait`, `hmm` 등 자기검토 표현과 철자가 겹치�
 | NoWait · 차단 목록 정제 | 8/40 | 2 | 244,736 | 25.31% |
 | **NoWait · 4,096토큰 답안 전환** | **19/40** | **1** | **143,648** | **56.16%** |
 
-답안 전환에서 확인한 19건은 기본 NoWait에서도 맞힌 8건, 기본 NoWait에서 채점 보류였던 2건, 그 밖에 새로 맞힌 9건이다. 토큰 감소율은 과거 저장 응답과 재추론 응답의 출력 길이를 비교한 값이다. 29건의 답안 전환에서 재요청에 사용한 입력 156,034토큰은 별도로 집계했다. [40문항 실험 기록과 과거 B0 기준 과목별 결과](https://github.com/Hyeonjin1/mmdl/blob/0de911b19a2e4ff5c207731278f4d792aa1cb554/runs/20261123_lab_backup/NOWAIT_REPORT_KO.md)
+답안 전환에서 확인한 19건은 기본 NoWait에서도 맞힌 8건, 기본 NoWait에서 채점 보류였던 2건, 그 밖에 새로 맞힌 9건이다. 토큰 감소율은 과거 저장 응답과 재추론 응답의 출력 길이를 비교한 값이다. 29건의 답안 전환에서 재요청에 사용한 입력 156,034토큰은 별도로 집계했다. [40문항 실험 기록과 과거 B0 기준 과목별 결과](../../../experiments/nowait/records/nowait_results.md)
 
 ## 5. Best Model 전체 점수
 
@@ -53,13 +53,14 @@ NoWait은 생성 중 `wait`, `hmm` 등 자기검토 표현과 철자가 겹치�
 
 ### 저장된 판정에서 900문항 점수 검산
 
-Git과 Node.js 18 이상이 있는 환경에서 아래 명령을 실행한다. 스크립트는 두 고정 커밋의 채점 파일을 문항 ID로 읽어 정오가 바뀐 문항을 출력한다. 이어서 Parser v2의 미추출 40건이 모두 기존 점수상 오답인지 확인하고, 저장된 NoWait 조건별 정답 수를 반영한다. [900문항 검산 코드](../../../experiments/nowait/verify_baseline_totals.cjs) · [NoWait 조건별 집계 입력](https://github.com/eses0070/MMDL/blob/8734934b029a01879207052d34ded8ab9a970c70/experiments/nowait/evidence.json)
+Git, Python 3.10 이상, Node.js 18 이상이 있는 환경에서 아래 명령을 실행한다. 스크립트는 두 고정 커밋의 채점 파일을 문항 ID로 읽어 정오가 바뀐 문항을 출력한다. 이어서 Parser v2의 미추출 40건이 모두 기존 점수상 오답인지 확인하고, 저장된 NoWait 조건별 정답 수를 반영한다. [900문항 검산 코드](../../../experiments/nowait/verify_baseline_totals.cjs) · [NoWait 조건별 집계 입력](https://github.com/eses0070/MMDL/blob/8734934b029a01879207052d34ded8ab9a970c70/experiments/nowait/evidence.json)
 
 ```bash
 git clone https://github.com/eses0070/MMDL.git MMDL
 cd MMDL
 git fetch origin seokmin
 node experiments/nowait/verify_baseline_totals.cjs
+python3 experiments/nowait/verify_reference.py
 ```
 
 기대 결과는 혼합 채점 563건, Parser v2 입력 564건, Parser v2 출력 568건, 기본 NoWait 반영 576건, 답안 전환 반영 587건이다.
@@ -71,8 +72,8 @@ node experiments/nowait/verify_baseline_totals.cjs
 | B0 응답 생성·Judge 채점 | [로컬 MMMU 데이터 변환](../../../code/MMDL-official-vllm/export_local_mmmu.py) · [추론 및 채점 진입점](../../../code/MMDL-official-vllm/run.py) · [실행 명령과 환경](../mmmu_baseline_vllm_cot_rules.md) | `infer`로 B0 응답 생성 후 `judge`로 저장 판정 생성 |
 | B0 혼합 채점 재현 | [규칙 재채점 코드](../../../code/MMDL-official-vllm/rescore_mc_rules.py) · [원 Judge 판정](../../../results/validation900_cot8192_guard_full_judge/judgments.jsonl) · [81개 재시도 기록](../../../results/validation900_mc_rejudge_v1/retries.jsonl) | 저장 판정 819건 유지, 미해결 81건 처리, 전체 정답 563건 |
 | Parser v2 재채점 | [재실행 코드](https://github.com/eses0070/MMDL/blob/8734934b029a01879207052d34ded8ab9a970c70/experiments/parser_v2/replay.py) · [입력 해시](https://github.com/eses0070/MMDL/blob/8734934b029a01879207052d34ded8ab9a970c70/experiments/parser_v2/PROVENANCE.json) · [테스트와 실행 안내](https://github.com/eses0070/MMDL/blob/8734934b029a01879207052d34ded8ab9a970c70/experiments/parser_v2/README.md) | 저장 입력에서 564 → 568건, 미추출 40건 |
-| NoWait 생성·채점 | [실험 스크립트](https://github.com/Hyeonjin1/mmdl/blob/0de911b19a2e4ff5c207731278f4d792aa1cb554/runs/20261123_lab_backup/code/MMDL-official-vllm/nowait.sh) · [파일럿 코드](https://github.com/Hyeonjin1/mmdl/blob/0de911b19a2e4ff5c207731278f4d792aa1cb554/runs/20261123_lab_backup/code/MMDL-official-vllm/nowait_pilot.py) · [마스크 구현](https://github.com/Hyeonjin1/mmdl/blob/0de911b19a2e4ff5c207731278f4d792aa1cb554/runs/20261123_lab_backup/code/MMDL-official-vllm/nowait_mask.py) · [실행 설정](https://github.com/Hyeonjin1/mmdl/blob/0de911b19a2e4ff5c207731278f4d792aa1cb554/runs/20261123_lab_backup/nowait-snapshot/run_config.json) | 모델 출력과 Qwen3-8B Judge 판정 생성 |
-| 차단 목록 정제·답안 전환 | [실행 스크립트](https://github.com/Hyeonjin1/mmdl/blob/0de911b19a2e4ff5c207731278f4d792aa1cb554/runs/20261123_lab_backup/nowait-followup/run-followup.sh) · [전환·채점 코드](https://github.com/Hyeonjin1/mmdl/blob/0de911b19a2e4ff5c207731278f4d792aa1cb554/runs/20261123_lab_backup/nowait-followup/nowait_followup.py) · [고정 설정](https://github.com/Hyeonjin1/mmdl/blob/0de911b19a2e4ff5c207731278f4d792aa1cb554/runs/20261123_lab_backup/nowait-followup/followup_config.json) · [실행 결과](https://github.com/Hyeonjin1/mmdl/blob/0de911b19a2e4ff5c207731278f4d792aa1cb554/runs/20261123_lab_backup/nowait-followup/summary.json) | 4,096토큰 도달 시 추가 답안 요청. 저장 결과는 40건 중 29건 전환, 정답 19건 |
+| NoWait 생성·채점 | [실험 스크립트](../../../experiments/nowait/run_gpu.sh) · [파일럿 코드](../../../experiments/nowait/pilot/nowait_pilot.py) · [마스크 구현](../../../experiments/nowait/pilot/nowait_mask.py) · [실행 설정](../../../experiments/nowait/records/run_config.json) | 모델 출력과 Qwen3-8B Judge 판정 생성 |
+| 차단 목록 정제·답안 전환 | [실행 스크립트](../../../experiments/nowait/run_gpu.sh) · [전환·채점 코드](../../../experiments/nowait/followup/nowait_followup.py) · [고정 설정](../../../experiments/nowait/records/followup_config.json) · [실행 결과](../../../experiments/nowait/records/summary.json) | 4,096토큰 도달 시 추가 답안 요청. 저장 결과는 40건 중 29건 전환, 정답 19건 |
 
 **혼합 채점.** 위에서 받은 팀 저장소 루트에서 실행한다. `--dry-run`은 원본 파일을 읽고 재집계 결과를 출력한다.
 
@@ -93,4 +94,4 @@ python3 -B replay.py --limit 0 --output-dir results/mc46_replay
 node ../nowait/reproduce_b0.cjs
 ```
 
-**GPU에서 NoWait을 다시 실행할 때.** 두 셸 스크립트는 실습실에 준비된 팀 체크아웃, Python 가상환경, 오프라인 모델 캐시와 이미지 매니페스트를 사용한다. 기본 실험은 팀 코드 디렉터리에서 `bash nowait.sh run`으로 실행한다. 후속 스크립트는 `/work/results/mmmu_nowait_pilot_20261123`의 완료된 NoWait 응답·판정과 해시를 확인한 뒤 `smoke → generate → judge` 순서로 진행한다. 다른 장비에서는 스크립트와 Python 파일의 `/home/gpu/projects/...`, `/work/...` 경로를 실제 배치에 맞춰야 한다. 실행 설정에 기록된 Student·Judge 리비전과 MMMU 이미지가 필요하다. 위의 900문항 검산은 저장 결과를 다시 집계하며, GPU 재생성 결과는 실행 환경에 따라 달라질 수 있다. [백업 구성과 복원 방법](https://github.com/Hyeonjin1/mmdl/blob/0de911b19a2e4ff5c207731278f4d792aa1cb554/runs/20261123_lab_backup/README.md) · [백업 파일 목록 및 해시](https://github.com/Hyeonjin1/mmdl/blob/0de911b19a2e4ff5c207731278f4d792aa1cb554/runs/20261123_lab_backup/archives/MANIFEST.json)
+**GPU 재실행과 원자료.** [팀 저장소의 환경 준비 및 단계별 실행 명령](../../../experiments/nowait/README.md)에 모델·데이터 리비전, B0 Judge 스냅샷, NoWait 실행 경로를 정리했다. [최종 체크포인트](../../../experiments/nowait/reference/nowait-reference.tar.gz)에는 기본 NoWait 생성 40건과 판정 38건이 있으며 2건은 보류다. CPU 검산은 이 원문에서 정답 8건과 출력 245,360토큰을 계산한다. 답안 전환 19건과 143,648토큰은 [실험 당시의 후속 집계](../../../experiments/nowait/records/summary.json)로 확인한다. 후속 문항별 원문 생성은 GPU 실행이 필요하다.

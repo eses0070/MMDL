@@ -1,0 +1,65 @@
+{
+  "refined_mask": {
+    "generated": 40,
+    "scored": 38,
+    "targets": 40,
+    "pending_score_ids": [
+      "validation_Architecture_and_Engineering_26",
+      "validation_Materials_9"
+    ],
+    "correct": 8,
+    "extracted": 14,
+    "length": 22,
+    "repetition_abort": 5,
+    "paired": 38,
+    "reference_paired_correct": 8,
+    "paired_correct": 8,
+    "gained_ids": [
+      "validation_Architecture_and_Engineering_17"
+    ],
+    "lost_ids": [
+      "validation_Architecture_and_Engineering_18"
+    ],
+    "generated_tokens": 244736,
+    "reference_generated_tokens": 245360,
+    "token_saving_fraction": 0.002543201825888519,
+    "switched": 0,
+    "cue_tokens": 0,
+    "second_prompt_tokens": 0,
+    "request_elapsed_seconds": 2774.29638643394
+  },
+  "answer_switch": {
+    "generated": 40,
+    "scored": 39,
+    "targets": 40,
+    "pending_score_ids": [
+      "validation_Energy_and_Power_13"
+    ],
+    "correct": 19,
+    "extracted": 39,
+    "length": 0,
+    "repetition_abort": 0,
+    "paired": 37,
+    "reference_paired_correct": 8,
+    "paired_correct": 17,
+    "gained_ids": [
+      "validation_Accounting_22",
+      "validation_Architecture_and_Engineering_9",
+      "validation_Electronics_7",
+      "validation_Energy_and_Power_4",
+      "validation_Energy_and_Power_8",
+      "validation_Energy_and_Power_9",
+      "validation_Materials_22",
+      "validation_Math_16",
+      "validation_Music_23"
+    ],
+    "lost_ids": [],
+    "generated_tokens": 143648,
+    "reference_generated_tokens": 245360,
+    "token_saving_fraction": 0.41454189761982396,
+    "switched": 29,
+    "cue_tokens": 1102,
+    "second_prompt_tokens": 156034,
+    "request_elapsed_seconds": 1595.7821358999354
+  }
+}

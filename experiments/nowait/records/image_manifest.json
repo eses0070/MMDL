@@ -1,0 +1,1309 @@
+{
+  "dataset": "MMMU/MMMU",
+  "revision": "876ce5cb130f7f7e290ce4d9984357737d4db5cf",
+  "split": "validation",
+  "historical_image_equivalence": "unverified",
+  "items": [
+    {
+      "id": "validation_Accounting_22",
+      "differences": [],
+      "images": [
+        {
+          "number": 1,
+          "path": "/home/gpu/projects/mmdl-lookback.0XCHOF/images/validation_Accounting_22_1.png",
+          "size": [
+            406,
+            166
+          ],
+          "rgb_pixels_sha256": "e37e23518fb13dea5ef5290c34264aa608fb85619c91cc18e45be16b207a8d73",
+          "png_sha256": "68b3600de4046b7ad9257b2fccb8db28ed18c96eb6ba6a1811379a7bc35b0575"
+        }
+      ]
+    },
+    {
+      "id": "validation_Accounting_28",
+      "differences": [],
+      "images": [
+        {
+          "number": 1,
+          "path": "/home/gpu/projects/mmdl-lookback.0XCHOF/images/validation_Accounting_28_1.png",
+          "size": [
+            736,
+            328
+          ],
+          "rgb_pixels_sha256": "0b9b4d71fba3108f7867aa92a45e87a4eddf1eb5f8dfb660dff0790e63f331e2",
+          "png_sha256": "e4cebc7750cea3d310a6ce61e8a95d7206e925aada419c71f350081f29262e89"
+        }
+      ]
+    },
+    {
+      "id": "validation_Agriculture_15",
+      "differences": [],
+      "images": [
+        {
+          "number": 1,
+          "path": "/home/gpu/projects/mmdl-lookback.0XCHOF/images/validation_Agriculture_15_1.png",
+          "size": [
+            2560,
+            1707
+          ],
+          "rgb_pixels_sha256": "c64f0ec31d7d491d9f038b1cdcb6975fac16073a609e0f3261d1e26f0213bb51",
+          "png_sha256": "b112df09fe977b6971519c0c7ec2c04e900d7a1c0796a355e4f41e4d3a60012d"
+        }
+      ]
+    },
+    {
+      "id": "validation_Agriculture_17",
+      "differences": [],
+      "images": [
+        {
+          "number": 1,
+          "path": "/home/gpu/projects/mmdl-lookback.0XCHOF/images/validation_Agriculture_17_1.png",
+          "size": [
+            2048,
+            1536
+          ],
+          "rgb_pixels_sha256": "84a73949dccddbb3146cbcdabe057287297e18bee1630d029cc734e3fbd807b3",
+          "png_sha256": "73ea8fe4bcf70986ddbb74f5b4d0270654ee8c0600b842c2ef7f38994ce7831d"
+        }
+      ]
+    },
+    {
+      "id": "validation_Agriculture_27",
+      "differences": [],
+      "images": [
+        {
+          "number": 1,
+          "path": "/home/gpu/projects/mmdl-lookback.0XCHOF/images/validation_Agriculture_27_1.png",
+          "size": [
+            1000,
+            750
+          ],
+          "rgb_pixels_sha256": "70db7b60eac7e776d93ed6db630908fa744915925c9ce8335a1284bedc1b7496",
+          "png_sha256": "071bbc002be5a8b4878eb7814eb18d90b9ff36a8f44d2139e5d9fda340528377"
+        }
+      ]
+    },
+    {
+      "id": "validation_Architecture_and_Engineering_13",
+      "differences": [],
+      "images": [
+        {
+          "number": 1,
+          "path": "/home/gpu/projects/mmdl-lookback.0XCHOF/images/validation_Architecture_and_Engineering_13_1.png",
+          "size": [
+            426,
+            382
+          ],
+          "rgb_pixels_sha256": "489aa7928ea4faa4cd7c634349d91628ad956a99fe699eeb1af0bf4d785af874",
+          "png_sha256": "05632949d6cfccac4fc4125ffeac03649a230b20e91de21e78399dfb68a98666"
+        }
+      ]
+    },
+    {
+      "id": "validation_Architecture_and_Engineering_17",
+      "differences": [],
+      "images": [
+        {
+          "number": 1,
+          "path": "/home/gpu/projects/mmdl-lookback.0XCHOF/images/validation_Architecture_and_Engineering_17_1.png",
+          "size": [
+            889,
+            101
+          ],
+          "rgb_pixels_sha256": "175c862c8add6d965c3243089ef1d70d915824cc6adcb691ab901adcdeaec0c0",
+          "png_sha256": "16a5d5dd3903d893c6f85c0d33ed6c9af3d83a5f21d169d2ca228bf4a843ccf4"
+        }
+      ]
+    },
+    {
+      "id": "validation_Architecture_and_Engineering_18",
+      "differences": [],
+      "images": [
+        {
+          "number": 1,
+          "path": "/home/gpu/projects/mmdl-lookback.0XCHOF/images/validation_Architecture_and_Engineering_18_1.png",
+          "size": [
+            610,
+            100
+          ],
+          "rgb_pixels_sha256": "6e0b712251c5f1691f2a5ea41932133f8f839f67ef168e1d771a1e3fd6d62602",
+          "png_sha256": "e5e6e581364bee87ce33c61fab1b22585b7c34a25d83232d0bfc326fcbfc2c80"
+        }
+      ]
+    },
+    {
+      "id": "validation_Architecture_and_Engineering_22",
+      "differences": [],
+      "images": [
+        {
+          "number": 1,
+          "path": "/home/gpu/projects/mmdl-lookback.0XCHOF/images/validation_Architecture_and_Engineering_22_1.png",
+          "size": [
+            529,
+            149
+          ],
+          "rgb_pixels_sha256": "4826abee2c47bdaef7950d22caf9d90684a43b29ad867280af220d90cae0c97c",
+          "png_sha256": "c8cdcec01b0d5251200fb647306d75b23f40203dfb4b40fd53a68601549a299c"
+        }
+      ]
+    },
+    {
+      "id": "validation_Architecture_and_Engineering_26",
+      "differences": [],
+      "images": [
+        {
+          "number": 1,
+          "path": "/home/gpu/projects/mmdl-lookback.0XCHOF/images/validation_Architecture_and_Engineering_26_1.png",
+          "size": [
+            382,
+            353
+          ],
+          "rgb_pixels_sha256": "e96d360d81155d5a11f73869d953904acf21424652646e7870b57ff02be2fd44",
+          "png_sha256": "638694f68e1a174191459e342a6c7db9f9854010208980acfa7dac870608dd3e"
+        }
+      ]
+    },
+    {
+      "id": "validation_Architecture_and_Engineering_9",
+      "differences": [],
+      "images": [
+        {
+          "number": 1,
+          "path": "/home/gpu/projects/mmdl-lookback.0XCHOF/images/validation_Architecture_and_Engineering_9_1.png",
+          "size": [
+            529,
+            69
+          ],
+          "rgb_pixels_sha256": "268b81c1b922ec8fbaab168d94972cfb3964e09ace95d6cd6802828778ad8620",
+          "png_sha256": "1128d56e4c6b0719a668a51c2ea090da56cc792572e177076a7e2a20de2a0558"
+        }
+      ]
+    },
+    {
+      "id": "validation_Art_25",
+      "differences": [],
+      "images": [
+        {
+          "number": 1,
+          "path": "/home/gpu/projects/mmdl-lookback.0XCHOF/images/validation_Art_25_1.png",
+          "size": [
+            452,
+            452
+          ],
+          "rgb_pixels_sha256": "d93b46e17999396db326633f50c9d9d16e8aa216cf0e019e163067b320685c18",
+          "png_sha256": "a6e46df99c191ecb4b5d8b5f92fba10b4c31618c88f3f91c5e25186c678eade8"
+        }
+      ]
+    },
+    {
+      "id": "validation_Art_Theory_14",
+      "differences": [],
+      "images": [
+        {
+          "number": 1,
+          "path": "/home/gpu/projects/mmdl-lookback.0XCHOF/images/validation_Art_Theory_14_1.png",
+          "size": [
+            776,
+            1242
+          ],
+          "rgb_pixels_sha256": "886dd844583363be41ac4b2fe740394ca4a47e388565c21ab2d86006e1cfc0ff",
+          "png_sha256": "614e89ed0c622f461a767681f171884547bebf1e45971c5e22306d45f5e7a765"
+        }
+      ]
+    },
+    {
+      "id": "validation_Art_Theory_3",
+      "differences": [],
+      "images": [
+        {
+          "number": 1,
+          "path": "/home/gpu/projects/mmdl-lookback.0XCHOF/images/validation_Art_Theory_3_1.png",
+          "size": [
+            850,
+            971
+          ],
+          "rgb_pixels_sha256": "9d23e8dcc78c99594d8449b2cdbcd58d6f7799c7795e4ed869034bb824b6b36c",
+          "png_sha256": "8c6628b64e7954929fdb0fa469144f4e83722be9e536469a47ce9c763119ff9a"
+        }
+      ]
+    },
+    {
+      "id": "validation_Basic_Medical_Science_30",
+      "differences": [],
+      "images": [
+        {
+          "number": 1,
+          "path": "/home/gpu/projects/mmdl-lookback.0XCHOF/images/validation_Basic_Medical_Science_30_1.png",
+          "size": [
+            330,
+            260
+          ],
+          "rgb_pixels_sha256": "d042086fdd14152632f38b3ed674548de74389f85607163ebe5fed7145c24e35",
+          "png_sha256": "b0f3e67f627dac83303e5089746ce77d86ab204c3142d638857ad4a0284cfdda"
+        }
+      ]
+    },
+    {
+      "id": "validation_Basic_Medical_Science_8",
+      "differences": [],
+      "images": [
+        {
+          "number": 1,
+          "path": "/home/gpu/projects/mmdl-lookback.0XCHOF/images/validation_Basic_Medical_Science_8_1.png",
+          "size": [
+            330,
+            260
+          ],
+          "rgb_pixels_sha256": "084dfb92f706befe521e7936398a4e8908fbe5c63703a38c6fb5d0713d852b45",
+          "png_sha256": "81252d196cf2bcfc9b6bd04b29f0e621cf19eb8e2776c52a580d924a6bc3a893"
+        }
+      ]
+    },
+    {
+      "id": "validation_Biology_17",
+      "differences": [],
+      "images": [
+        {
+          "number": 1,
+          "path": "/home/gpu/projects/mmdl-lookback.0XCHOF/images/validation_Biology_17_1.png",
+          "size": [
+            310,
+            429
+          ],
+          "rgb_pixels_sha256": "9dba94ba33ef0bd663a0e3e618a933567de9982c0440977e525f9746ca0f5ce9",
+          "png_sha256": "7fc13c7c64274c0e1a06c9b52842a57b017fbec2d4fb0b648345181ebf49a3b0"
+        }
+      ]
+    },
+    {
+      "id": "validation_Biology_8",
+      "differences": [],
+      "images": [
+        {
+          "number": 1,
+          "path": "/home/gpu/projects/mmdl-lookback.0XCHOF/images/validation_Biology_8_1.png",
+          "size": [
+            672,
+            558
+          ],
+          "rgb_pixels_sha256": "ab31aa768a3a9b7b2d3d70f7205dfb289a29f05b3818d698545fdea23de50202",
+          "png_sha256": "a1bbdf1c6ed258a2fb3a4b7d04e81c28782b6ad147de3d5714e669009b43986d"
+        }
+      ]
+    },
+    {
+      "id": "validation_Chemistry_3",
+      "differences": [],
+      "images": [
+        {
+          "number": 1,
+          "path": "/home/gpu/projects/mmdl-lookback.0XCHOF/images/validation_Chemistry_3_1.png",
+          "size": [
+            258,
+            148
+          ],
+          "rgb_pixels_sha256": "3583d8729bd624f90266fb27b9ff7b5a6560fe55e19984d2b2e35aa00f51c13e",
+          "png_sha256": "9dea9a44f5f715d11418a4645deb3f15d619b995cfaeb5d814f2d82c67a02957"
+        }
+      ]
+    },
+    {
+      "id": "validation_Chemistry_8",
+      "differences": [],
+      "images": [
+        {
+          "number": 1,
+          "path": "/home/gpu/projects/mmdl-lookback.0XCHOF/images/validation_Chemistry_8_1.png",
+          "size": [
+            170,
+            298
+          ],
+          "rgb_pixels_sha256": "dcd5aeae6a039bd75694a289e77e7379d48a36a6f5d1537c3c3edd03a19f8eab",
+          "png_sha256": "b94445deeaa65b6c5506e6e5f001748b67165f074c0088678d17e4c050168ebe"
+        }
+      ]
+    },
+    {
+      "id": "validation_Clinical_Medicine_28",
+      "differences": [],
+      "images": [
+        {
+          "number": 1,
+          "path": "/home/gpu/projects/mmdl-lookback.0XCHOF/images/validation_Clinical_Medicine_28_1.png",
+          "size": [
+            504,
+            336
+          ],
+          "rgb_pixels_sha256": "66766001963fc0b3fc5d761d9e3b4bea94286affee7936767883956c3ed7bbc7",
+          "png_sha256": "67ae9df686b1a243679dc32fa56b9eee7a0916f60987b8f656e6f5a55b0243c9"
+        }
+      ]
+    },
+    {
+      "id": "validation_Computer_Science_12",
+      "differences": [],
+      "images": [
+        {
+          "number": 1,
+          "path": "/home/gpu/projects/mmdl-lookback.0XCHOF/images/validation_Computer_Science_12_1.png",
+          "size": [
+            508,
+            213
+          ],
+          "rgb_pixels_sha256": "e79828c199a2f84c2c32b2dfcc81974f99dd278c953094380b453258d0f8b435",
+          "png_sha256": "b78b1686a7005871363a26c43dd6a154c086a33d084f760c2d8049efd26a8ce1"
+        }
+      ]
+    },
+    {
+      "id": "validation_Design_12",
+      "differences": [],
+      "images": [
+        {
+          "number": 1,
+          "path": "/home/gpu/projects/mmdl-lookback.0XCHOF/images/validation_Design_12_1.png",
+          "size": [
+            500,
+            400
+          ],
+          "rgb_pixels_sha256": "8bfdd36c7d3b34452ebb76431790140697ceebe574e0a0f3e47cd14eaeb32d30",
+          "png_sha256": "86abdea4cfbc349d79d5928d3236aa67585f4cf0a461b44ea37074f15563a913"
+        }
+      ]
+    },
+    {
+      "id": "validation_Design_3",
+      "differences": [],
+      "images": [
+        {
+          "number": 1,
+          "path": "/home/gpu/projects/mmdl-lookback.0XCHOF/images/validation_Design_3_1.png",
+          "size": [
+            236,
+            301
+          ],
+          "rgb_pixels_sha256": "7d860587a1fc1eddd36226364efc680d50ff76c5f705c6d3a34383d12003771b",
+          "png_sha256": "f406b948e2eecda6a7ab8ad845803b17a41929e310412b1e028f67c444720ac8"
+        }
+      ]
+    },
+    {
+      "id": "validation_Economics_16",
+      "differences": [],
+      "images": [
+        {
+          "number": 1,
+          "path": "/home/gpu/projects/mmdl-lookback.0XCHOF/images/validation_Economics_16_1.png",
+          "size": [
+            695,
+            278
+          ],
+          "rgb_pixels_sha256": "3ddc287edc88358566945471f6534a82dfbddd23463d87e51ca6dda2f2d4aaf0",
+          "png_sha256": "25f805e50839598da7c0fa8bc3b5540e8bf9772aa309e7de4a2ddb244863ef04"
+        }
+      ]
+    },
+    {
+      "id": "validation_Economics_24",
+      "differences": [],
+      "images": [
+        {
+          "number": 1,
+          "path": "/home/gpu/projects/mmdl-lookback.0XCHOF/images/validation_Economics_24_1.png",
+          "size": [
+            876,
+            705
+          ],
+          "rgb_pixels_sha256": "30e1ff8dc59fa75ae2279ced03e5a11701b1cda3428beb78cd492d648df47dea",
+          "png_sha256": "9ceb73a5a50c5c2344f8d9fe49c572783872394b4e0f2a8a741cd6b9bbfc66ff"
+        }
+      ]
+    },
+    {
+      "id": "validation_Electronics_14",
+      "differences": [],
+      "images": [
+        {
+          "number": 1,
+          "path": "/home/gpu/projects/mmdl-lookback.0XCHOF/images/validation_Electronics_14_1.png",
+          "size": [
+            528,
+            287
+          ],
+          "rgb_pixels_sha256": "1f74b49f1e5a7348c58918ef46866a09390ffba684b042b124982b74b0f29afd",
+          "png_sha256": "d3be2cb0130dcecf4b547563ae25b3dfcbd00f37fb1922598ebaa40d4d9f893f"
+        }
+      ]
+    },
+    {
+      "id": "validation_Electronics_17",
+      "differences": [],
+      "images": [
+        {
+          "number": 1,
+          "path": "/home/gpu/projects/mmdl-lookback.0XCHOF/images/validation_Electronics_17_1.png",
+          "size": [
+            601,
+            263
+          ],
+          "rgb_pixels_sha256": "0d96a28aa89c491f7f69f69da46d0bc606ec54cd5e4ca4f9c7872641f4f67459",
+          "png_sha256": "41bf356ba5a6e7743e37cc82201ed013bdbfcfafcaf0ced5375f61ad4f4442de"
+        }
+      ]
+    },
+    {
+      "id": "validation_Electronics_28",
+      "differences": [],
+      "images": [
+        {
+          "number": 1,
+          "path": "/home/gpu/projects/mmdl-lookback.0XCHOF/images/validation_Electronics_28_1.png",
+          "size": [
+            526,
+            147
+          ],
+          "rgb_pixels_sha256": "b1386b14a953b279b04798ed20619412b86e63663667d5e40c2861725cdc017b",
+          "png_sha256": "d031546c1c23cabd3930eeef94e5bba4677bb8313d0a24edf1b669ce8f7f8d2b"
+        }
+      ]
+    },
+    {
+      "id": "validation_Electronics_4",
+      "differences": [],
+      "images": [
+        {
+          "number": 1,
+          "path": "/home/gpu/projects/mmdl-lookback.0XCHOF/images/validation_Electronics_4_1.png",
+          "size": [
+            137,
+            340
+          ],
+          "rgb_pixels_sha256": "34049cfe830f1f2a157ae7e5ee8bcdecc9e8610e699fb4f4a1e78cd0a6b45a9f",
+          "png_sha256": "a6cbae32f143b4bf43736c89ab048271bee5da3a4515561435164a33395bd39c"
+        }
+      ]
+    },
+    {
+      "id": "validation_Electronics_7",
+      "differences": [],
+      "images": [
+        {
+          "number": 1,
+          "path": "/home/gpu/projects/mmdl-lookback.0XCHOF/images/validation_Electronics_7_1.png",
+          "size": [
+            404,
+            156
+          ],
+          "rgb_pixels_sha256": "a897f1edc5f1879613dd6315cbf8244a2bdd861e0b882dc6d34d2c0327fdca20",
+          "png_sha256": "c32e86f980884ed4a74b251dfe5d1be8cfcbb4ea4b8a0b5a8298430cb1ad092a"
+        }
+      ]
+    },
+    {
+      "id": "validation_Electronics_8",
+      "differences": [],
+      "images": [
+        {
+          "number": 1,
+          "path": "/home/gpu/projects/mmdl-lookback.0XCHOF/images/validation_Electronics_8_1.png",
+          "size": [
+            592,
+            253
+          ],
+          "rgb_pixels_sha256": "8002973fc30c86450996abec8115462f6a18adf422462a52033dae37ba0e0193",
+          "png_sha256": "d62a79f0edba4a9dc239164c987e9ff30b5b1d9bb68505ee93ec8733673cb8a1"
+        }
+      ]
+    },
+    {
+      "id": "validation_Electronics_9",
+      "differences": [],
+      "images": [
+        {
+          "number": 1,
+          "path": "/home/gpu/projects/mmdl-lookback.0XCHOF/images/validation_Electronics_9_1.png",
+          "size": [
+            491,
+            158
+          ],
+          "rgb_pixels_sha256": "59ae57fd08b91fc9fc34ebc4b2aaa89f470c26d57cfc21f5bd24a22f920a0381",
+          "png_sha256": "febf331f40a59c606569d9d5ba05a5bd43d22ebe70f18f3edd7696c4bdb0abcc"
+        }
+      ]
+    },
+    {
+      "id": "validation_Energy_and_Power_1",
+      "differences": [],
+      "images": [
+        {
+          "number": 1,
+          "path": "/home/gpu/projects/mmdl-lookback.0XCHOF/images/validation_Energy_and_Power_1_1.png",
+          "size": [
+            439,
+            195
+          ],
+          "rgb_pixels_sha256": "525001aedd0776ed2a7063dcbc2cddab99ef227417012c5818bcc0763f181b8b",
+          "png_sha256": "62b0eee33b9dae7e61f901387869a9aabad258e241a7cccfe7a43f5b3c57efce"
+        }
+      ]
+    },
+    {
+      "id": "validation_Energy_and_Power_12",
+      "differences": [],
+      "images": [
+        {
+          "number": 1,
+          "path": "/home/gpu/projects/mmdl-lookback.0XCHOF/images/validation_Energy_and_Power_12_1.png",
+          "size": [
+            569,
+            598
+          ],
+          "rgb_pixels_sha256": "1f88795268239113b8ead1544bf114fc21f70ceaf21a76e0e7cbca4808efa854",
+          "png_sha256": "7bb4f630e732e778984848fd9b8ef3d80fcec57894b8e6d79d1ba77ff14b2690"
+        }
+      ]
+    },
+    {
+      "id": "validation_Energy_and_Power_13",
+      "differences": [],
+      "images": [
+        {
+          "number": 1,
+          "path": "/home/gpu/projects/mmdl-lookback.0XCHOF/images/validation_Energy_and_Power_13_1.png",
+          "size": [
+            708,
+            694
+          ],
+          "rgb_pixels_sha256": "632452ddbd843f48b1b41117fb29d71414de6476be1cc60753085add9ab29cc3",
+          "png_sha256": "00148a607c951430d55a0092366c6294a1c9b9ae5ea6c44d809b05415a5f3cb4"
+        }
+      ]
+    },
+    {
+      "id": "validation_Energy_and_Power_14",
+      "differences": [],
+      "images": [
+        {
+          "number": 1,
+          "path": "/home/gpu/projects/mmdl-lookback.0XCHOF/images/validation_Energy_and_Power_14_1.png",
+          "size": [
+            301,
+            249
+          ],
+          "rgb_pixels_sha256": "e3bfe6b002d236002eec0171360d87e3f65f86246988fdb0f1030da53051c9e5",
+          "png_sha256": "d899276f87068811ab2f0c79945d5e8f8810781435f856d070a882413c6573bc"
+        }
+      ]
+    },
+    {
+      "id": "validation_Energy_and_Power_17",
+      "differences": [],
+      "images": [
+        {
+          "number": 1,
+          "path": "/home/gpu/projects/mmdl-lookback.0XCHOF/images/validation_Energy_and_Power_17_1.png",
+          "size": [
+            444,
+            270
+          ],
+          "rgb_pixels_sha256": "5d64a04c76d08d64f52704608163b1998d1c07f9a62c3b49b94383b9b19b583e",
+          "png_sha256": "008ca6b883675cbd9273ab97d3c1208118896360c0d004790d2ca8484b572ae7"
+        }
+      ]
+    },
+    {
+      "id": "validation_Energy_and_Power_22",
+      "differences": [],
+      "images": [
+        {
+          "number": 1,
+          "path": "/home/gpu/projects/mmdl-lookback.0XCHOF/images/validation_Energy_and_Power_22_1.png",
+          "size": [
+            346,
+            298
+          ],
+          "rgb_pixels_sha256": "a5eea2ae27df23de81137b1cd2273ca8930173eba282887a8f1ef09844feebab",
+          "png_sha256": "bf74d7dd3ba2219ef88f8ea93707dad86dce4ee09888884b75384461dd236a2d"
+        }
+      ]
+    },
+    {
+      "id": "validation_Energy_and_Power_4",
+      "differences": [],
+      "images": [
+        {
+          "number": 1,
+          "path": "/home/gpu/projects/mmdl-lookback.0XCHOF/images/validation_Energy_and_Power_4_1.png",
+          "size": [
+            922,
+            236
+          ],
+          "rgb_pixels_sha256": "ac09ee259718d7840f4d430ff698f240ac7a980ae58394364bb6932319f584c4",
+          "png_sha256": "66d6da2fc6166a084c25c802b1cb3bbf2d2bf4664f2d7f762f28ba9e308836c6"
+        }
+      ]
+    },
+    {
+      "id": "validation_Energy_and_Power_8",
+      "differences": [],
+      "images": [
+        {
+          "number": 1,
+          "path": "/home/gpu/projects/mmdl-lookback.0XCHOF/images/validation_Energy_and_Power_8_1.png",
+          "size": [
+            238,
+            292
+          ],
+          "rgb_pixels_sha256": "e1e6cf356f0d2b93f0c7735ebb5a5b62536e77f9138f7e9cd60a4a882c88ca6c",
+          "png_sha256": "6539d72a1415eda2f1028d3d7b6f337245fb74b532324ae23be272ff86113523"
+        }
+      ]
+    },
+    {
+      "id": "validation_Energy_and_Power_9",
+      "differences": [],
+      "images": [
+        {
+          "number": 1,
+          "path": "/home/gpu/projects/mmdl-lookback.0XCHOF/images/validation_Energy_and_Power_9_1.png",
+          "size": [
+            282,
+            310
+          ],
+          "rgb_pixels_sha256": "1d1921dfbbfd695049057d983ac817ab0a01f5ea5db5f35f7ce361354570e75a",
+          "png_sha256": "b8b321cd83c38b0fc6821a1dd83455907285432d8bcd90e62c08c3497b5e1c49"
+        }
+      ]
+    },
+    {
+      "id": "validation_Finance_13",
+      "differences": [],
+      "images": [
+        {
+          "number": 1,
+          "path": "/home/gpu/projects/mmdl-lookback.0XCHOF/images/validation_Finance_13_1.png",
+          "size": [
+            718,
+            358
+          ],
+          "rgb_pixels_sha256": "1e8fa5a31dbfe7b5edfa9133e21c3d36465b1b4df6933780f0744df7521d80db",
+          "png_sha256": "ac7f25a65ec65b90897018da71efda761a7d8c3629db1e02cc174696befa5a37"
+        }
+      ]
+    },
+    {
+      "id": "validation_Finance_28",
+      "differences": [],
+      "images": [
+        {
+          "number": 1,
+          "path": "/home/gpu/projects/mmdl-lookback.0XCHOF/images/validation_Finance_28_1.png",
+          "size": [
+            720,
+            226
+          ],
+          "rgb_pixels_sha256": "ce27c1b2dcf93fa66565090c1efe34a9d52d63d5ba7c501e1b40bd4465972b67",
+          "png_sha256": "cfc942abc52df494cae1ec6bf64d7094a133850b464caa52d8cb99a3e8eb6696"
+        }
+      ]
+    },
+    {
+      "id": "validation_Geography_23",
+      "differences": [],
+      "images": [
+        {
+          "number": 1,
+          "path": "/home/gpu/projects/mmdl-lookback.0XCHOF/images/validation_Geography_23_1.png",
+          "size": [
+            434,
+            146
+          ],
+          "rgb_pixels_sha256": "9df663a6c021fe4b9dd5168f1edd6da4def50709b132853acb1e4ef7c238eded",
+          "png_sha256": "8aac6cdc3256cd94d436a7968c15d28b91f8aa493857fd6d35c8f3b2e07ae835"
+        }
+      ]
+    },
+    {
+      "id": "validation_Geography_27",
+      "differences": [],
+      "images": [
+        {
+          "number": 1,
+          "path": "/home/gpu/projects/mmdl-lookback.0XCHOF/images/validation_Geography_27_1.png",
+          "size": [
+            311,
+            122
+          ],
+          "rgb_pixels_sha256": "50f53971381b4fe3fe3c2197e7b8a321a268a52a0bbde24ecabf378b95220be7",
+          "png_sha256": "d9c6fad4c63efcec9d4f5cb0101e15be97514e49b5694b7103e6aeb9ab20508e"
+        }
+      ]
+    },
+    {
+      "id": "validation_Geography_30",
+      "differences": [],
+      "images": [
+        {
+          "number": 1,
+          "path": "/home/gpu/projects/mmdl-lookback.0XCHOF/images/validation_Geography_30_1.png",
+          "size": [
+            560,
+            215
+          ],
+          "rgb_pixels_sha256": "d73d61b50b3759f325ec32c1567ccfa040b724a42663bb2d9f06cd8ffe752a2e",
+          "png_sha256": "fb23835f91e3ce9b772faca250208498aaad495e85baabf6437c1cfeab797777"
+        }
+      ]
+    },
+    {
+      "id": "validation_History_19",
+      "differences": [],
+      "images": [
+        {
+          "number": 1,
+          "path": "/home/gpu/projects/mmdl-lookback.0XCHOF/images/validation_History_19_1.png",
+          "size": [
+            521,
+            388
+          ],
+          "rgb_pixels_sha256": "dec1d5532cc4829d35ff09d1d8b6131a23f76b97f42fff6b7fd556c1962d1a32",
+          "png_sha256": "47a9d9fc4d34a30c2f9f5db719a0ab46a3ee73a1315b6104aaf19b5e2708505d"
+        }
+      ]
+    },
+    {
+      "id": "validation_History_21",
+      "differences": [],
+      "images": [
+        {
+          "number": 1,
+          "path": "/home/gpu/projects/mmdl-lookback.0XCHOF/images/validation_History_21_1.png",
+          "size": [
+            764,
+            628
+          ],
+          "rgb_pixels_sha256": "506e2c671d9be35ca2810256a81cec85e4339c93850fff37664edb1146e93541",
+          "png_sha256": "55f60e299903ea40f071f87a8e77cf05c3c07dfbd5242e95df7895c1815a4efa"
+        }
+      ]
+    },
+    {
+      "id": "validation_History_25",
+      "differences": [],
+      "images": [
+        {
+          "number": 1,
+          "path": "/home/gpu/projects/mmdl-lookback.0XCHOF/images/validation_History_25_1.png",
+          "size": [
+            882,
+            544
+          ],
+          "rgb_pixels_sha256": "fe6ebc613d65504a56f8ea85cf74b7a61a9b91df8beedc241dc9dcbf4b7efd9b",
+          "png_sha256": "6474e4d14cddd898e4ecfd3693f63563c7158f2ababca25526ad52ca32f488ee"
+        }
+      ]
+    },
+    {
+      "id": "validation_Literature_11",
+      "differences": [],
+      "images": [
+        {
+          "number": 1,
+          "path": "/home/gpu/projects/mmdl-lookback.0XCHOF/images/validation_Literature_11_1.png",
+          "size": [
+            500,
+            353
+          ],
+          "rgb_pixels_sha256": "8465441800c0d48d20ea5999f05989275bb9ec26987bc3abd968e6e2df409d2d",
+          "png_sha256": "de09f5e9f66d853ea294202ee8b2348408448e73cbafe98097e8bc0a135618a4"
+        }
+      ]
+    },
+    {
+      "id": "validation_Literature_27",
+      "differences": [],
+      "images": [
+        {
+          "number": 1,
+          "path": "/home/gpu/projects/mmdl-lookback.0XCHOF/images/validation_Literature_27_1.png",
+          "size": [
+            537,
+            405
+          ],
+          "rgb_pixels_sha256": "ebac64ad1a8f51d7787a584e8a02f7072c81b6b511702f683e24a3ee5be9196e",
+          "png_sha256": "ecb6a75fea289e1591a7af9303cf01fbdd65bffdd8921d17e9d8e07ee3b5879a"
+        }
+      ]
+    },
+    {
+      "id": "validation_Manage_27",
+      "differences": [],
+      "images": [
+        {
+          "number": 1,
+          "path": "/home/gpu/projects/mmdl-lookback.0XCHOF/images/validation_Manage_27_1.png",
+          "size": [
+            372,
+            524
+          ],
+          "rgb_pixels_sha256": "f97ac4cc7ae92d3b872dad0d5737ea1ad4a16233bc7f5a54671b11a112b85597",
+          "png_sha256": "c9f69ae5495ee95ca956386368eea239aee08433f8053ed42955a8ed9501f9a7"
+        }
+      ]
+    },
+    {
+      "id": "validation_Manage_29",
+      "differences": [],
+      "images": [
+        {
+          "number": 1,
+          "path": "/home/gpu/projects/mmdl-lookback.0XCHOF/images/validation_Manage_29_1.png",
+          "size": [
+            1022,
+            649
+          ],
+          "rgb_pixels_sha256": "60ffae2c9bd38d9acda74baa7bc1d5975f8e65ec773334e78584e8fb9fdd49a7",
+          "png_sha256": "4d64c042c16e07e816fdad98745a73c740d1b645842b47b2ab1ec2426fa22b81"
+        }
+      ]
+    },
+    {
+      "id": "validation_Marketing_23",
+      "differences": [],
+      "images": [
+        {
+          "number": 1,
+          "path": "/home/gpu/projects/mmdl-lookback.0XCHOF/images/validation_Marketing_23_1.png",
+          "size": [
+            1216,
+            616
+          ],
+          "rgb_pixels_sha256": "021885fe421f15e75762517e13e51f4fb138e471af6afe27571d13e52e9551fb",
+          "png_sha256": "8d9c1eab34cd958f21185af56f3e68cf038e214805c4329edcc9f43ec629d8c1"
+        }
+      ]
+    },
+    {
+      "id": "validation_Materials_20",
+      "differences": [],
+      "images": [
+        {
+          "number": 1,
+          "path": "/home/gpu/projects/mmdl-lookback.0XCHOF/images/validation_Materials_20_1.png",
+          "size": [
+            463,
+            508
+          ],
+          "rgb_pixels_sha256": "428c86f23e68065cd47e72639773cd5c28a22eda3825242819fcdcec5affd972",
+          "png_sha256": "b4f77ff0c6b92e5930de130ce5a0f166c92891ba82f9c7242ef57e9b58d45fe5"
+        }
+      ]
+    },
+    {
+      "id": "validation_Materials_22",
+      "differences": [],
+      "images": [
+        {
+          "number": 1,
+          "path": "/home/gpu/projects/mmdl-lookback.0XCHOF/images/validation_Materials_22_1.png",
+          "size": [
+            580,
+            429
+          ],
+          "rgb_pixels_sha256": "d51fd4a4b617a85cccca7de86a6c52b101bea0457beb01c5896b0a7d8770606d",
+          "png_sha256": "ed56efb6c3280cdf1ef301bca10a1a1c05b93df047f1d1d6b93471f63598d4f4"
+        }
+      ]
+    },
+    {
+      "id": "validation_Materials_4",
+      "differences": [],
+      "images": [
+        {
+          "number": 1,
+          "path": "/home/gpu/projects/mmdl-lookback.0XCHOF/images/validation_Materials_4_1.png",
+          "size": [
+            358,
+            324
+          ],
+          "rgb_pixels_sha256": "795f458c6f4d2a5ef57e9c108252bbdfba1748209ed151124225015ba33a28d5",
+          "png_sha256": "7cc449aea5d8499eb3a111b37761a28adde9c22186d14d6c03b9e6b5971ea6d6"
+        }
+      ]
+    },
+    {
+      "id": "validation_Materials_5",
+      "differences": [],
+      "images": [
+        {
+          "number": 1,
+          "path": "/home/gpu/projects/mmdl-lookback.0XCHOF/images/validation_Materials_5_1.png",
+          "size": [
+            603,
+            649
+          ],
+          "rgb_pixels_sha256": "dd87f70f1dba1c0ccc0e4ffc4b59787a2d95407c4f5364e3a7154eade9ac404b",
+          "png_sha256": "d18c95da8a34fa5da175b5ad6e82a80472c5546aba6d4fde7c35b60433c8ea58"
+        }
+      ]
+    },
+    {
+      "id": "validation_Materials_6",
+      "differences": [],
+      "images": [
+        {
+          "number": 1,
+          "path": "/home/gpu/projects/mmdl-lookback.0XCHOF/images/validation_Materials_6_1.png",
+          "size": [
+            285,
+            273
+          ],
+          "rgb_pixels_sha256": "e4b8d96feccc0cf0f78beab23c38255c23055c7c12acfc37c8d86393fc77eff7",
+          "png_sha256": "8462935ecff3664ffce967548ee2848c7dc9e3d35e035972e3b28e09d186a410"
+        }
+      ]
+    },
+    {
+      "id": "validation_Materials_9",
+      "differences": [],
+      "images": [
+        {
+          "number": 1,
+          "path": "/home/gpu/projects/mmdl-lookback.0XCHOF/images/validation_Materials_9_1.png",
+          "size": [
+            576,
+            262
+          ],
+          "rgb_pixels_sha256": "4fdd3ba3c324ec339c96da263f84bee74d1f99e2735bdd65d9559ae1318fe3e0",
+          "png_sha256": "e2a1dbd2ec0de9499b52adae907903256653b22abf32ebdf90cf00f7f8be1641"
+        }
+      ]
+    },
+    {
+      "id": "validation_Math_15",
+      "differences": [],
+      "images": [
+        {
+          "number": 1,
+          "path": "/home/gpu/projects/mmdl-lookback.0XCHOF/images/validation_Math_15_1.png",
+          "size": [
+            489,
+            267
+          ],
+          "rgb_pixels_sha256": "cc4a81886fe96bb05fdc21c1e72f887cc422050584817119fe4876b23698ac9c",
+          "png_sha256": "eb207232ce21b066b7b952f31de7c7e6ff7f271565d2194ac96f150029ba1e83"
+        }
+      ]
+    },
+    {
+      "id": "validation_Math_16",
+      "differences": [],
+      "images": [
+        {
+          "number": 1,
+          "path": "/home/gpu/projects/mmdl-lookback.0XCHOF/images/validation_Math_16_1.png",
+          "size": [
+            465,
+            286
+          ],
+          "rgb_pixels_sha256": "be974420449606f773d964c852d3b64f0a97f0c930a5c0bcafa41c288eef6214",
+          "png_sha256": "b03bf2f5e2695c8cc2b5e09e4e33a33894e8b77f294751086bd8d325734fef3b"
+        }
+      ]
+    },
+    {
+      "id": "validation_Math_21",
+      "differences": [],
+      "images": [
+        {
+          "number": 1,
+          "path": "/home/gpu/projects/mmdl-lookback.0XCHOF/images/validation_Math_21_1.png",
+          "size": [
+            522,
+            270
+          ],
+          "rgb_pixels_sha256": "e2a2ac5601caa56e2f2e1f6f93d0e11a468f8c8e86a376f2d03e00f7d428f874",
+          "png_sha256": "128cc5385ad98ed5280e8b80ceca9036756ccda6f950521248314b5ccd343127"
+        }
+      ]
+    },
+    {
+      "id": "validation_Mechanical_Engineering_19",
+      "differences": [],
+      "images": [
+        {
+          "number": 1,
+          "path": "/home/gpu/projects/mmdl-lookback.0XCHOF/images/validation_Mechanical_Engineering_19_1.png",
+          "size": [
+            711,
+            254
+          ],
+          "rgb_pixels_sha256": "c113c913ecee91a6a33299a57c415fa1e32f0a63fb46f685510a1ce960ae63b4",
+          "png_sha256": "105a5893e737ac677894a8bce2f8972c25ce26c5b6ff415fbaebbb70980c1d62"
+        },
+        {
+          "number": 2,
+          "path": "/home/gpu/projects/mmdl-lookback.0XCHOF/images/validation_Mechanical_Engineering_19_2.png",
+          "size": [
+            724,
+            236
+          ],
+          "rgb_pixels_sha256": "99ddfc1e0015da302130e7cd5d3d99268e88614dd291200d6122ede176051995",
+          "png_sha256": "4ae9a7276ecf6b9edc187218568882a4daabe56b4e9811675cdc9b004373c267"
+        }
+      ]
+    },
+    {
+      "id": "validation_Mechanical_Engineering_27",
+      "differences": [],
+      "images": [
+        {
+          "number": 1,
+          "path": "/home/gpu/projects/mmdl-lookback.0XCHOF/images/validation_Mechanical_Engineering_27_1.png",
+          "size": [
+            656,
+            391
+          ],
+          "rgb_pixels_sha256": "ee1cde5ef4b1dcf3d6960d7786a0123f1db4154838fdc570fca627566740f705",
+          "png_sha256": "0528ae2a0724da8c33489f34f76a79e02a037c432c4de790da3e91ea25d710a6"
+        }
+      ]
+    },
+    {
+      "id": "validation_Mechanical_Engineering_28",
+      "differences": [],
+      "images": [
+        {
+          "number": 1,
+          "path": "/home/gpu/projects/mmdl-lookback.0XCHOF/images/validation_Mechanical_Engineering_28_1.png",
+          "size": [
+            793,
+            317
+          ],
+          "rgb_pixels_sha256": "0bff35d205226da6e1119af752bfc60cd557afc25be70cd1d892210e1dcc16bf",
+          "png_sha256": "beed05395fbcaeac59ac7bf1fad574419783ad17ed692506e9e8876d01999469"
+        }
+      ]
+    },
+    {
+      "id": "validation_Mechanical_Engineering_4",
+      "differences": [],
+      "images": [
+        {
+          "number": 1,
+          "path": "/home/gpu/projects/mmdl-lookback.0XCHOF/images/validation_Mechanical_Engineering_4_1.png",
+          "size": [
+            545,
+            308
+          ],
+          "rgb_pixels_sha256": "67c616fa768cdfa97c19b40e231d46930eff8dd85c7c0086377f64897d5b5822",
+          "png_sha256": "ba06def131295dc29028b1a305e672ef23aee7200ba8415da606bb49cfb39eac"
+        }
+      ]
+    },
+    {
+      "id": "validation_Mechanical_Engineering_7",
+      "differences": [],
+      "images": [
+        {
+          "number": 1,
+          "path": "/home/gpu/projects/mmdl-lookback.0XCHOF/images/validation_Mechanical_Engineering_7_1.png",
+          "size": [
+            285,
+            253
+          ],
+          "rgb_pixels_sha256": "ec4f2f7b5aa0d72f4baf5861170a6f4d40e07fec108e1e6b98a2ddac250ad58d",
+          "png_sha256": "f416a12dd0745c0ad282139f9103eec58802639a60fc4beeff57a5377e303d50"
+        }
+      ]
+    },
+    {
+      "id": "validation_Mechanical_Engineering_8",
+      "differences": [],
+      "images": [
+        {
+          "number": 1,
+          "path": "/home/gpu/projects/mmdl-lookback.0XCHOF/images/validation_Mechanical_Engineering_8_1.png",
+          "size": [
+            457,
+            219
+          ],
+          "rgb_pixels_sha256": "b7dea6d10bfdced96c9c98be35c5e9edc9f17b885bc13f59c3f5f1fb16aefdbb",
+          "png_sha256": "729e56101f6388fb4f86de2bb971757e759c323bc5abd8eed6259b81713fd81c"
+        }
+      ]
+    },
+    {
+      "id": "validation_Music_14",
+      "differences": [],
+      "images": [
+        {
+          "number": 1,
+          "path": "/home/gpu/projects/mmdl-lookback.0XCHOF/images/validation_Music_14_1.png",
+          "size": [
+            429,
+            459
+          ],
+          "rgb_pixels_sha256": "20f2f154bd07fb98cf99e7c76ddc87a1d272bdf3dd2b278e19f63e38f8be254a",
+          "png_sha256": "5faf9e5723b94ba8c5dd88f5ec230ccf381395799632f700392fbd4d65724ee5"
+        }
+      ]
+    },
+    {
+      "id": "validation_Music_23",
+      "differences": [],
+      "images": [
+        {
+          "number": 1,
+          "path": "/home/gpu/projects/mmdl-lookback.0XCHOF/images/validation_Music_23_1.png",
+          "size": [
+            1651,
+            187
+          ],
+          "rgb_pixels_sha256": "d7c8f6812cb1cf07d915de7bdf8c39607a9c40ecc913a9066ef38a148115a921",
+          "png_sha256": "27259d95bfff59afb5966cc48c7d84ac17fe7376167b7b417eb2d2f63539ea8a"
+        },
+        {
+          "number": 2,
+          "path": "/home/gpu/projects/mmdl-lookback.0XCHOF/images/validation_Music_23_2.png",
+          "size": [
+            1506,
+            620
+          ],
+          "rgb_pixels_sha256": "3165b6248ebc33b24e57fda1a0535d4a2994110f40d32c098ab4f5b1cc367c73",
+          "png_sha256": "6158aeb92df4e67f0f2c2aec652fe0a82640d53b938e06ede93d5cef4205b9d1"
+        }
+      ]
+    },
+    {
+      "id": "validation_Music_25",
+      "differences": [],
+      "images": [
+        {
+          "number": 1,
+          "path": "/home/gpu/projects/mmdl-lookback.0XCHOF/images/validation_Music_25_1.png",
+          "size": [
+            397,
+            164
+          ],
+          "rgb_pixels_sha256": "90592166e80994785444117b42c2d06316133ead61a62a8a72fe032340148591",
+          "png_sha256": "f7f31a399434a9856016c30f1326819d6f147838b45efad9bd79d5399a91c3b1"
+        }
+      ]
+    },
+    {
+      "id": "validation_Music_27",
+      "differences": [],
+      "images": [
+        {
+          "number": 1,
+          "path": "/home/gpu/projects/mmdl-lookback.0XCHOF/images/validation_Music_27_1.png",
+          "size": [
+            2130,
+            320
+          ],
+          "rgb_pixels_sha256": "1143ff914f177291acd1b4209511b0b580d84ca8fb89353ea7ced10fb64102e5",
+          "png_sha256": "179337bb45b316d9da7f7f9e0cf56a91d4e321331670724aae5a10daddbb8725"
+        }
+      ]
+    },
+    {
+      "id": "validation_Physics_18",
+      "differences": [],
+      "images": [
+        {
+          "number": 1,
+          "path": "/home/gpu/projects/mmdl-lookback.0XCHOF/images/validation_Physics_18_1.png",
+          "size": [
+            508,
+            246
+          ],
+          "rgb_pixels_sha256": "fc629a115b3fecd4461ebb8b7623f1be0be939e3e0c820b4a18208d20316cd8a",
+          "png_sha256": "6859399f25fab60ca549f048bf558d9716d480d49e7978bc0b49d85f00349bcc"
+        }
+      ]
+    },
+    {
+      "id": "validation_Physics_30",
+      "differences": [],
+      "images": [
+        {
+          "number": 1,
+          "path": "/home/gpu/projects/mmdl-lookback.0XCHOF/images/validation_Physics_30_1.png",
+          "size": [
+            422,
+            188
+          ],
+          "rgb_pixels_sha256": "6551829e46b1209e76422416e80f0626b8a549d2a46fb1a746080ba74c713cb3",
+          "png_sha256": "b0ea58689ef4552feddbd280afdb2a02ca242bf13ff7b5a682b564ddefb86abf"
+        }
+      ]
+    },
+    {
+      "id": "validation_Physics_7",
+      "differences": [],
+      "images": [
+        {
+          "number": 1,
+          "path": "/home/gpu/projects/mmdl-lookback.0XCHOF/images/validation_Physics_7_1.png",
+          "size": [
+            302,
+            208
+          ],
+          "rgb_pixels_sha256": "066b80a92fcbd8d3eb986295a5da346cc54dd6fa54807755c25f54b2daa4f835",
+          "png_sha256": "cc8c4c46c3871e0a657941ae8cf9ca48689dd6c33095a02930e7d597a9fd3e79"
+        }
+      ]
+    },
+    {
+      "id": "validation_Psychology_5",
+      "differences": [],
+      "images": [
+        {
+          "number": 1,
+          "path": "/home/gpu/projects/mmdl-lookback.0XCHOF/images/validation_Psychology_5_1.png",
+          "size": [
+            746,
+            622
+          ],
+          "rgb_pixels_sha256": "0a28e0dce7ba5511ce1c0a6a3ce8f1502fc7cbcef07642cd987e7f0d04105412",
+          "png_sha256": "4eb93a971963406244b6783381579bea5ad63dd8f09e9a1e248353e2b42a97c3"
+        }
+      ]
+    },
+    {
+      "id": "validation_Psychology_9",
+      "differences": [],
+      "images": [
+        {
+          "number": 1,
+          "path": "/home/gpu/projects/mmdl-lookback.0XCHOF/images/validation_Psychology_9_1.png",
+          "size": [
+            784,
+            824
+          ],
+          "rgb_pixels_sha256": "ec8efc8fb03566508f2597632f1f61dd676c581f2093b910af316ee3bfe126f1",
+          "png_sha256": "adc26438c10895047202bf8a28f9487f8157614d2b55f420822a9ea5ed83bb8d"
+        }
+      ]
+    },
+    {
+      "id": "validation_Public_Health_26",
+      "differences": [],
+      "images": [
+        {
+          "number": 1,
+          "path": "/home/gpu/projects/mmdl-lookback.0XCHOF/images/validation_Public_Health_26_1.png",
+          "size": [
+            963,
+            291
+          ],
+          "rgb_pixels_sha256": "111824400be5d63d53ad6f52ea81891a53e6c8434638fd2ea8f7b2f33a1917e6",
+          "png_sha256": "9d651f9cbbee92de6be6c7318e5659ade4a6ed01cc773b1d7a026da5550961f8"
+        }
+      ]
+    }
+  ],
+  "errors": []
+}
