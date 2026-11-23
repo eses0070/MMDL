@@ -2,13 +2,11 @@
 
 최종 발표의 **Best Model**은 Qwen3-VL-4B-Instruct에 혼합 채점, Parser v2, NoWait 및 4,096토큰 답안 전환을 적용한 평가 구성이다. 모델 가중치는 고정했다. MMMU validation 900문항에서 **587/900(65.22%)**을 기록했다. 이 점수는 Parser v2까지 반영한 568건에 동일한 미추출 객관식 40문항의 답안 전환 결과 19건을 더한 값이다.
 
-초기 베이스라인은 프로젝트 시작 시점의 Transformers 실행 결과 **493/900(54.78%)**이다. 이후 vLLM B0의 혼합 채점 **563/900(62.56%)**은 미추출 문항을 분석하고 후속 실험을 설계할 때 사용한 비교 기록이다.
+발표의 **초기 베이스라인은 과거 B0 혼합 채점 결과인 563/900(62.56%)**이다. Best Model은 같은 900문항에서 정답이 24건 늘었다. 정확도 상승폭은 24/900을 기준으로 **2.67%p**다.
 
-## 1. 시작점과 후속 B0 실행
+## 1. 초기 베이스라인 B0의 생성 조건
 
-초기 Transformers 실행에서는 객관식에 선택지 한 글자를 요청하고, 주관식에는 풀이 후 마지막 줄에 답을 쓰도록 했다. 생성 상한은 객관식 2,048토큰, 주관식 8,192토큰이었다. 객관식 472/847, 주관식 21/53으로 전체 **493/900(54.78%)**을 기록했다. [초기 베이스라인 보고서](mmmu_baseline.md)
-
-후속 B0 실행에서는 vLLM으로 900개 응답을 새로 생성했다. Qwen의 선택적 CoT 프롬프트를 사용하고 생성 상한을 8,192토큰, 전체 컨텍스트를 49,152토큰으로 설정했다. 반복 감지 시 생성을 중단했다. 900건 중 60건은 길이 한도에서, 53건은 반복 감지로 종료됐다. 초기 실행과 B0는 프롬프트·백엔드·생성 설정과 채점 절차가 함께 달라졌다. [B0 생성 및 채점 보고서](mmmu_baseline_vllm_cot_rules.md)
+과거 B0는 vLLM으로 MMMU validation 900문항의 응답을 생성했다. Qwen의 선택적 CoT 프롬프트를 사용하고 생성 상한을 8,192토큰, 전체 컨텍스트를 49,152토큰으로 설정했다. 반복 감지 시 생성을 중단했다. 900건 중 60건은 길이 한도에서, 53건은 반복 감지로 종료됐다. [B0 생성 및 채점 보고서](mmmu_baseline_vllm_cot_rules.md)
 
 ## 2. 혼합 채점으로 과거 B0 점수 확정
 
@@ -43,14 +41,13 @@ NoWait은 생성 중 `wait`, `hmm` 등 자기검토 표현과 철자가 겹치�
 
 | 단계 | 전체 정답 | 정확도 |
 | --- | ---: | ---: |
-| 초기 베이스라인 (Transformers) | 493/900 | 54.78% |
-| 후속 B0 혼합 채점 (vLLM) | 563/900 | 62.56% |
+| **초기 베이스라인 · 과거 B0 혼합 채점** | 563/900 | 62.56% |
 | 주관식 판정 보완 후 · Parser v2 적용 직전 | 564/900 | 62.67% |
 | Parser v2 적용 후 | 568/900 | 63.11% |
 | Parser v2 + NoWait | 576/900 | 64.00% |
 | **Best Model · Parser v2 + NoWait·4,096토큰 답안 전환** | **587/900** | **65.22%** |
 
-객관식·주관식으로 풀어 쓰면 Parser v2는 **543/847 + 25/53 = 568/900**, 답안 전환을 반영한 최종 결과는 **562/847 + 25/53 = 587/900**이다. 초기 Transformers 실행의 493건은 별도 생성 결과다. 개인 NoWait 보고서의 582건은 과거 혼합 채점 563건에 재추론 정답 19건만 더한 집계이며, 이 문서의 587건은 그 사이의 재채점 증가분 5건까지 포함한다.
+객관식·주관식으로 풀어 쓰면 Parser v2는 **543/847 + 25/53 = 568/900**, 답안 전환을 반영한 최종 결과는 **562/847 + 25/53 = 587/900**이다. 개인 NoWait 보고서의 582건은 과거 혼합 채점 563건에 재추론 정답 19건만 더한 집계이며, 이 문서의 587건은 그 사이의 재채점 증가분 5건까지 포함한다.
 
 ## 6. 재현 코드와 실행 방법
 
@@ -71,7 +68,6 @@ node experiments/nowait/verify_baseline_totals.cjs
 
 | 단계 | 실행 코드와 입력 | 확인할 결과 |
 | --- | --- | --- |
-| 초기 Transformers 평가 | [평가 스크립트](../../code/eval_mmmu_v3.py) · [모델·데이터 리비전 및 실행 명령](mmmu_baseline.md) | GPU에서 MMMU 900문항을 생성·채점한 초기 결과 493건 |
 | B0 응답 생성·Judge 채점 | [로컬 MMMU 데이터 변환](../../code/MMDL-official-vllm/export_local_mmmu.py) · [추론 및 채점 진입점](../../code/MMDL-official-vllm/run.py) · [실행 명령과 환경](mmmu_baseline_vllm_cot_rules.md) | `infer`로 B0 응답 생성 후 `judge`로 저장 판정 생성 |
 | B0 혼합 채점 재현 | [규칙 재채점 코드](../../code/MMDL-official-vllm/rescore_mc_rules.py) · [원 Judge 판정](../../results/validation900_cot8192_guard_full_judge/judgments.jsonl) · [81개 재시도 기록](../../results/validation900_mc_rejudge_v1/retries.jsonl) | 저장 판정 819건 유지, 미해결 81건 처리, 전체 정답 563건 |
 | Parser v2 재채점 | [재실행 코드](https://github.com/eses0070/MMDL/blob/8734934b029a01879207052d34ded8ab9a970c70/experiments/parser_v2/replay.py) · [입력 해시](https://github.com/eses0070/MMDL/blob/8734934b029a01879207052d34ded8ab9a970c70/experiments/parser_v2/PROVENANCE.json) · [테스트와 실행 안내](https://github.com/eses0070/MMDL/blob/8734934b029a01879207052d34ded8ab9a970c70/experiments/parser_v2/README.md) | 저장 입력에서 564 → 568건, 미추출 40건 |
